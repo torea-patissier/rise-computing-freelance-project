@@ -8,6 +8,28 @@
 
 .cta-slogan {
 	margin-bottom: $cta-slogan--padding-v__mobile;
+	background-color: #A7001E;
+}
+
+.logo-contact {
+	display: flex;
+	flex-direction: row;
+}
+
+.nous-contacter {
+	background-color: #A7001E;
+}
+
+.form-contact {
+	background-color: get-color(dark,3);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.caze {
+	background-color: #1CB68B;
+	width: 50%;
 }
 
 @include media( '>medium' ) {
