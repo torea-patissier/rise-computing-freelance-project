@@ -45,7 +45,9 @@ const SectionHeader = ({
                 classNames(
                   'mt-0',
                   data.paragraph ? 'mb-16' : 'mb-0'
-                )}>{data.title} d'expertises</Component>
+                )}>
+                {`${data.title.includes('domaines') ?  data.title + " d'expertises" : data.title}`}
+              </Component>
             }
           </div>
         </div>

@@ -39,7 +39,7 @@ const Testimonial = ({
   );
 
   const tilesClasses = classNames(
-    'tiles-wrap',
+    'tiles-wrap mt-32',
     pushLeft && 'push-left'
   );
 
@@ -55,9 +55,11 @@ const Testimonial = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          {/*<SectionHeader data={sectionHeader} className="center-content" />*/}
+          <h2 id="nos_parternaires" className=" mb-16 container-sm reveal-from-bottom center-content" data-reveal-delay="200">
+            Ils nous font <span className="text-color-primaryy">confiance</span>
+          </h2>
           <div className={tilesClasses}>
-
             <div className="tiles-item reveal-from-right" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">

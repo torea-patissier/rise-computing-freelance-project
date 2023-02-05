@@ -43,15 +43,12 @@ const FeaturesSplit = ({
   );
 
   const splitClasses = classNames(
-    'split-wrap',
+    'split-wrap mt-32',
     invertMobile && 'invert-mobile',
     invertDesktop && 'invert-desktop',
     alignTop && 'align-top'
   );
 
-  const sectionHeader = {
-    title: "Nos domaines",
-  };
 
   return (
     <section
@@ -59,8 +56,10 @@ const FeaturesSplit = ({
       className={outerClasses}
     >
       <div className="container">
-        <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+        <div id='nos_domaines_dexpertises' className={innerClasses}>
+          <h2 className="mt-0 mb-16 container-sm reveal-from-bottom center-content" data-reveal-delay="200">
+            Nos domaines <span className="text-color-primaryy">d'expertises</span>
+          </h2>
           <div className={splitClasses}>
 
             <div className="split-item">

@@ -85,7 +85,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          {/*<Logo />*/}
+          <Logo />
           {!hideNav &&
             <>
               <button
@@ -112,7 +112,33 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Lorem ipsum</Link>
+                      <Link to="#nos_domaines_dexpertises" onClick={() => {
+                        const nos_domaines_dexpertises = document.querySelector('#nos_domaines_dexpertises');
+                        nos_domaines_dexpertises.scrollIntoView({behavior: 'smooth'});
+                        closeMenu();
+                      }}>
+                        Nos domaines d'expertises
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link to="#nos_parternaires" onClick={() => {
+                        const nos_parternaires = document.querySelector('#nos_parternaires');
+                        nos_parternaires.scrollIntoView({behavior: 'smooth'});
+                        closeMenu();
+                      }}>
+                        Nos partenaires
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link to="#nous_contacter" onClick={() => {
+                        const nous_contacter = document.querySelector('#nous_contacter');
+                        nous_contacter.scrollIntoView({behavior: 'smooth'});
+                        closeMenu();
+                      }}>
+                        Nous contacter
+                      </Link>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,10 +146,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
-                      </li>
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
+                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Nous rejoindre</Link>
                       </li>
                     </ul>}
                 </div>
