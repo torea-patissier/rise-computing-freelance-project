@@ -45,10 +45,7 @@ const SectionHeader = ({
                 classNames(
                   'mt-0',
                   data.paragraph ? 'mb-16' : 'mb-0'
-                )}>{data.title}</Component>
-            }
-            {data.paragraph &&
-              <p className="m-0">{data.paragraph}</p>
+                )}>{data.title} d'expertises</Component>
             }
           </div>
         </div>
