@@ -20,6 +20,13 @@
 	background-color: #A7001E;
 }
 
+.parent-form-contact{
+	background-color: #1CB68B;
+	display: flex;
+	width: 100vw;
+
+}
+
 .form-contact {
 	background-color: get-color(dark,3);
 	display: flex;
@@ -27,10 +34,6 @@
 	justify-content: center;
 }
 
-.caze {
-	background-color: #1CB68B;
-	width: 50%;
-}
 
 @include media( '>medium' ) {
 

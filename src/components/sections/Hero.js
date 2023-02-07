@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
+import Logo from "../layout/partials/Logo";
 
 const propTypes = {
   ...SectionProps.types
@@ -20,18 +21,6 @@ const Hero = ({
   invertColor,
   ...props
 }) => {
-
-  const [videoModalActive, setVideomodalactive] = useState(false);
-
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
-
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  }
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -56,11 +45,14 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-full-screen">
+            <div className="hero-title-logo">
+            <Logo />
             <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
               Conseil, pilotage et <span className="text-color-primaryy">Développement IT</span>
             </h2>
+            </div>
             {/*<div className="container-xs">*/}
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="300">
                 Rise Consulting accélère la transformation digitale de ses clients en les accompagnant dans le déploiement de projet IT complexes.
               </p>
             {/*  /!*<div className="reveal-from-bottom" data-reveal-delay="600">*!/*/}

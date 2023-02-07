@@ -8,7 +8,7 @@ const Recrutement = () => {
      <>
        <HeaderRecrutement/>
        <RecruitSection/>
-       {/*<Footer />*/}
+       <Footer />
      </>
   )
 }

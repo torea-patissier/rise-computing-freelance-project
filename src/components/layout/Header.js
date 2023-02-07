@@ -92,7 +92,6 @@ const Header = ({
             'site-header-inner mt-32',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
           {!hideNav &&
             <>
               <button

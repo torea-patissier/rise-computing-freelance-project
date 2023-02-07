@@ -11,6 +11,14 @@
 	width: 100%; /* prend la largeur de la fenêtre */
 }
 
+.hero-title-logo{
+	background-color: #1CB68B;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 .hero-inner {
 
 	// Affects only hero full

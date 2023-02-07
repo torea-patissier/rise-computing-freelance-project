@@ -2,24 +2,52 @@
   color: get-color(primary, 1);
 }
 
-
+.text-black{
+  color: get-color(dark,2);
+}
 
 .recruit-section{
-  background-color: #1CB68B;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  //width: 80vw;
+  margin-top: 10vh;
   flex-direction: column;
 }
 
+.form-parent{
+  display: flex;
+  width: 100vw;
+  padding: 5px;
+  background-color: get-color(primary,1);
+  justify-content: center;
+}
+
+.form-child{
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  margin: 2vh;
+}
+
 .form-recruit{
-  background-color: #D1200D;
   display: flex;
   flex-direction: column;
   width: 60%;
   padding: 10px;
+  border-radius: 2px;
+}
+
+.recruit-paragraph{
+  margin-top: 10vh;
+}
+
+.button-form-recruit{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vh;
 }
 
 .input-recruit{
@@ -28,9 +56,11 @@
 
 .message-recruit{
   margin-top: 2vh;
+  height: 25vh;
 }
 
 .button-recruit{
-  margin-top: 2vh;
+  width: 100vw;
+  margin: 5px;
 }
 

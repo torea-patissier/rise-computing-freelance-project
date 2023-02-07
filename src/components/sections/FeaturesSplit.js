@@ -56,7 +56,7 @@ const FeaturesSplit = ({
       className={outerClasses}
     >
       <div className="container">
-        <div id='nos_domaines_dexpertises' className={innerClasses}>
+        <div id='nos_domaines_dexpertises' className={innerClasses} data-reveal-delay="100">
           <h2 className="mt-0 mb-16 container-sm reveal-from-bottom center-content" data-reveal-delay="200">
             Nos domaines <span className="text-color-primaryy">d'expertises</span>
           </h2>
@@ -78,7 +78,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/paysage.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -101,7 +101,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/paysage.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -125,7 +125,7 @@ const FeaturesSplit = ({
                 )}
                    data-reveal-container=".split-item">
                 <Image
-                   src={require('./../../assets/images/features-split-image-01.png')}
+                   src={require('./../../assets/images/paysage.png')}
                    alt="Features split 01"
                    width={528}
                    height={396} />
@@ -148,7 +148,7 @@ const FeaturesSplit = ({
                 )}
                    data-reveal-container=".split-item">
                 <Image
-                   src={require('./../../assets/images/features-split-image-02.png')}
+                   src={require('./../../assets/images/paysage.png')}
                    alt="Features split 02"
                    width={528}
                    height={396} />
@@ -171,7 +171,7 @@ const FeaturesSplit = ({
                 )}
                    data-reveal-container=".split-item">
                 <Image
-                   src={require('./../../assets/images/features-split-image-01.png')}
+                   src={require('./../../assets/images/paysage.png')}
                    alt="Features split 01"
                    width={528}
                    height={396} />
@@ -194,7 +194,7 @@ const FeaturesSplit = ({
                 )}
                    data-reveal-container=".split-item">
                 <Image
-                   src={require('./../../assets/images/features-split-image-02.png')}
+                   src={require('./../../assets/images/paysage.png')}
                    alt="Features split 02"
                    width={528}
                    height={396} />
