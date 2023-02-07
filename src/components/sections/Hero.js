@@ -42,7 +42,7 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container-sm">
+      <div className="">
         <div className={innerClasses}>
           <div className="hero-full-screen">
             <div className="hero-title-logo">
@@ -52,9 +52,11 @@ const Hero = ({
             </h2>
             </div>
             {/*<div className="container-xs">*/}
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="300">
+            <div className="sous-titre-hero">
+              <p className="m-0 mb-32 mt-32 reveal-from-bottom container-sm" data-reveal-delay="300">
                 Rise Consulting accélère la transformation digitale de ses clients en les accompagnant dans le déploiement de projet IT complexes.
               </p>
+            </div>
             {/*  /!*<div className="reveal-from-bottom" data-reveal-delay="600">*!/*/}
             {/*    /!*<ButtonGroup>*!/*/}
             {/*    /!*  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">*!/*/}

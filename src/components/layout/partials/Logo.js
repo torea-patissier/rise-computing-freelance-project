@@ -21,6 +21,7 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
           <Image
+            className='reveal-from-bottom'
             src={require('./../../../assets/images/logo.svg')}
             alt="Open"
             width={128}

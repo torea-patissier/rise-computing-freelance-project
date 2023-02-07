@@ -9,10 +9,17 @@
 .hero-full-screen {
 	height: 75vh; /* prend la taille de la fenêtre */
 	width: 100%; /* prend la largeur de la fenêtre */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.sous-titre-hero{
+	display: flex;
+	justify-content: center;
 }
 
 .hero-title-logo{
-	background-color: #1CB68B;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
