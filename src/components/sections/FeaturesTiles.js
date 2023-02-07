@@ -56,7 +56,7 @@ const FeaturesTiles = ({
       <div className="">
         <div className={innerClasses}>
           {/*<SectionHeader data={sectionHeader} classN:ame="center-content" />*/}
-          <h3 className="center-content container-sm pt-32">Rise Consulting accélère la transformation digitale de ses clients en les accompagnant dans le déploiement de projet IT complexes.</h3>
+          {/*<h3 className="center-content container-sm pt-32">Rise Consulting accélère la transformation digitale de ses clients en les accompagnant dans le déploiement de projet IT complexes.</h3>*/}
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">

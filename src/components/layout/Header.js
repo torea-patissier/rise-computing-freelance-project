@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+import {Link, useHistory, Route} from 'react-router-dom';
 import Logo from './partials/Logo';
+import Recrutement from "../sections/Recrutement";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -29,6 +30,12 @@ const Header = ({
   bottomDivider,
   ...props
 }) => {
+
+  const history = useHistory();
+
+  const handleClick = () => {
+    history.push('/recrutement');
+  };
 
   const [isActive, setIsactive] = useState(false);
 
@@ -82,7 +89,7 @@ const Header = ({
       <div className="container">
         <div className={
           classNames(
-            'site-header-inner',
+            'site-header-inner mt-32',
             bottomDivider && 'has-bottom-divider'
           )}>
           <Logo />
@@ -146,7 +153,8 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Nous rejoindre</Link>
+                        <Link to="/recrutement" className="button button-primary button-wide-mobile button-sm"  onClick={handleClick}>Nous rejoindre</Link>
+                        <Route path="/recrutement" component={Recrutement}/>
                       </li>
                     </ul>}
                 </div>

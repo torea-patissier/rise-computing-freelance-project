@@ -1,3 +1,36 @@
 .text-color-primaryy{
   color: get-color(primary, 1);
 }
+
+
+
+.recruit-section{
+  background-color: #1CB68B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  //width: 80vw;
+  flex-direction: column;
+}
+
+.form-recruit{
+  background-color: #D1200D;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 10px;
+}
+
+.input-recruit{
+  margin-top: 2vh;
+}
+
+.message-recruit{
+  margin-top: 2vh;
+}
+
+.button-recruit{
+  margin-top: 2vh;
+}
+
