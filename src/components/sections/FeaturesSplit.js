@@ -77,7 +77,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/paysage.png')}
+                  src={require('../../assets/images/paysage.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -100,7 +100,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/paysage.png')}
+                  src={require('../../assets/images/paysage.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -124,7 +124,7 @@ const FeaturesSplit = ({
                 )}
                    data-reveal-container=".split-item">
                 <Image
-                   src={require('./../../assets/images/paysage.png')}
+                   src={require('../../assets/images/paysage.png')}
                    alt="Features split 01"
                    width={528}
                    height={396} />
@@ -147,7 +147,7 @@ const FeaturesSplit = ({
                 )}
                    data-reveal-container=".split-item">
                 <Image
-                   src={require('./../../assets/images/paysage.png')}
+                   src={require('../../assets/images/paysage.png')}
                    alt="Features split 02"
                    width={528}
                    height={396} />
@@ -170,7 +170,7 @@ const FeaturesSplit = ({
                 )}
                    data-reveal-container=".split-item">
                 <Image
-                   src={require('./../../assets/images/paysage.png')}
+                   src={require('../../assets/images/paysage.png')}
                    alt="Features split 01"
                    width={528}
                    height={396} />
@@ -193,7 +193,7 @@ const FeaturesSplit = ({
                 )}
                    data-reveal-container=".split-item">
                 <Image
-                   src={require('./../../assets/images/paysage.png')}
+                   src={require('../../assets/images/paysage.png')}
                    alt="Features split 02"
                    width={528}
                    height={396} />
