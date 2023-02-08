@@ -24,8 +24,8 @@ const Logo = ({
             className='reveal-from-bottom'
             src={require('./../../../assets/images/logo.svg')}
             alt="Open"
-            width={128}
-            height={128} />
+            width={300}
+            height={300} />
         </Link>
       </h1>
     </div>
