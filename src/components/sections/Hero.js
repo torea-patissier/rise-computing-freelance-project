@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import {SectionProps} from '../../utils/SectionProps';
 import Logo from "../layout/partials/Logo";
 
+
 const propTypes = {
   ...SectionProps.types
 }

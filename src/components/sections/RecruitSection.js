@@ -1,5 +1,6 @@
 import React, {useRef, useState} from 'react';
 import emailjs from "@emailjs/browser";
+import HorizontalScroll from "./HorizontalScroll";
 
 export const ContactUsFile = () => {
   const form = useRef();

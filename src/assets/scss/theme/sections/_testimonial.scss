@@ -1,7 +1,7 @@
 .testimonial {
 
 	.tiles-item-inner {
-		background: get-color(dark, 2);		
+		background: get-color(dark, 2);
 	}
 }
 
@@ -17,7 +17,7 @@
         margin-bottom: 16px;
         background-image: inline-svg('<svg width="24" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M0 13.481c0-2.34.611-4.761 1.833-7.263C3.056 3.716 4.733 1.643 6.865 0L11 2.689C9.726 4.382 8.777 6.093 8.152 7.824c-.624 1.73-.936 3.578-.936 5.545V18H0v-4.519zm13 0c0-2.34.611-4.761 1.833-7.263 1.223-2.502 2.9-4.575 5.032-6.218L24 2.689c-1.274 1.693-2.223 3.404-2.848 5.135-.624 1.73-.936 3.578-.936 5.545V18H13v-4.519z" fill="' + get-color(primary, 1) + '" fill-rule="nonzero"/></svg>');
         background-repeat: no-repeat;
-    }		
+    }
 }
 
 .testimonial-item-footer {
@@ -43,4 +43,52 @@
             color: get-color(secondary, 2);
         }
 	}
+}
+
+.mySwiper{
+  //background-color: #1CB68B;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20vh;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  //background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 40%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 20%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: get-color(primary,1);
 }
