@@ -1,7 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
-import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 
 const propTypes = {
@@ -43,11 +42,6 @@ const FeaturesTiles = ({
     pushLeft && 'push-left'
   );
 
-  // const sectionHeader = {
-  //   title: 'Rise Consulting accélère la transformation digitale de ses clients en les accompagnant dans le déploiement de projet IT complexes.',
-  //   paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
-  // };
-
   return (
     <section
       {...props}
@@ -55,8 +49,6 @@ const FeaturesTiles = ({
     >
       <div className="">
         <div className={innerClasses}>
-          {/*<SectionHeader data={sectionHeader} classN:ame="center-content" />*/}
-          {/*<h3 className="center-content container-sm pt-32">Rise Consulting accélère la transformation digitale de ses clients en les accompagnant dans le déploiement de projet IT complexes.</h3>*/}
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="100">
