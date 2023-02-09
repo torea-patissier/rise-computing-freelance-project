@@ -38,12 +38,12 @@ export const ContactUs = () => {
     setFormData({user_name: '', user_email: '', user_phone: '', message: ''});
     if (formData.user_name === "" || formData.user_email === "" || formData.user_phone === "" || formData.message === "") {
       toast.error('Veuillez remplir le formulaire', {
-        position: "top-center",
-        autoClose:1500,
+        position: "bottom-right",
+        autoClose: 1500,
         hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
+        closeOnClick: false,
+        pauseOnHover: false,
+        draggable: false,
         progress: undefined,
         theme: "light",
       });
@@ -53,24 +53,24 @@ export const ContactUs = () => {
        .then((result) => {
          console.log(result.text);
          toast.success('Votre e-mail à bien été envoyé !', {
-           position: "top-center",
+           position: "bottom-right",
            autoClose: 1500,
            hideProgressBar: false,
-           closeOnClick: true,
-           pauseOnHover: true,
-           draggable: true,
+           closeOnClick: false,
+           pauseOnHover: false,
+           draggable: false,
            progress: undefined,
            theme: "light",
          });
        }, (error) => {
          console.log(error.text);
          toast.error('Oups, il y\'a un problème!', {
-           position: "top-center",
+           position: "bottom-right",
            autoClose: 1500,
            hideProgressBar: false,
-           closeOnClick: true,
-           pauseOnHover: true,
-           draggable: true,
+           closeOnClick: false,
+           pauseOnHover: false,
+           draggable: false,
            progress: undefined,
            theme: "light",
          });
@@ -80,15 +80,15 @@ export const ContactUs = () => {
   return (
      <div className="form-child">
        <ToastContainer
-          position="top-center"
-          autoClose={2000}
+          position="bottom-right"
+          autoClose={1500}
           hideProgressBar={false}
           newestOnTop={false}
-          closeOnClick
+          closeOnClick={false}
           rtl={false}
           pauseOnFocusLoss={false}
-          draggable
-          pauseOnHover
+          draggable={false}
+          pauseOnHover={false}
           theme="light"
        />
        <h3 id="nous_contacter" className='text-black'>Nous contacter</h3>
