@@ -42,8 +42,15 @@
   border-radius: 2px;
 }
 
+.recruit-parent-paragraph{
+  background-color: get-color(primary, 1);
+  display: flex;
+  width: 100vw;
+}
+
 .recruit-paragraph{
   margin-top: 10vh;
+
 }
 
 .button-form-recruit{

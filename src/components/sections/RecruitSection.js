@@ -63,7 +63,8 @@ const RecruitSection = () => {
            <h2>
              Nous <span className="text-color-primaryy">rejoindre</span>
            </h2>
-           <div className="recruit-paragraph">
+           <div className="recruit-parent-paragraph">
+           <div className="recruit-paragraph container-sm">
              <p className="text-sm mb-32">
                Au sein de Rise Consulting, nous mettons l’humain au cœur de nos préoccupation.
                Pour nous, chaque projet est avant tout une aventure Humaine. Nous mettons en place un environnement
@@ -83,8 +84,9 @@ const RecruitSection = () => {
                Contactez-nous pour rencontrer nos équipes et en s’avoir davantage !
              </p>
            </div>
-           <div className="form-parent mt-32">
-             <ContactUsFile/>
+           </div>
+           <div className="mt-32">
+             <button className="button button-primary button-wide-mobile button-sm" onClick={() => { window.location.href = "mailto:contact@rise-consulting.fr?subject=Recrutement Raise Consulting" }}>Je rejoins l'équipe !</button>
            </div>
          </div>
        </div>
