@@ -189,14 +189,14 @@ const FeaturesSplit = ({
               <div className={
                 classNames(
                    'split-item-image center-content-mobile reveal-from-bottom',
-                   imageFill && 'split-item-image-fill'
+                   // imageFill && 'split-item-image-fill'
                 )}
                    data-reveal-container=".split-item">
                 <Image
                    src={require('../../assets/images/paysage.png')}
                    alt="Features split 02"
-                   width={528}
-                   height={396} />
+                   width={100}
+                   height={100} />
               </div>
             </div>
           </div>

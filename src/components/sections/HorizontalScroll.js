@@ -10,7 +10,7 @@ export default function HorizontalScroll() {
   return (
        <Swiper
           slidesPerView={3}
-          spaceBetween={30}
+          spaceBetween={10}
           keyboard={{
             enabled: true,
           }}
@@ -24,16 +24,16 @@ export default function HorizontalScroll() {
          >
            <Image
               src={require('./../../assets/images/bnp.svg')}
-              alt="Features split 01"
+              alt="bnp"
               width={100}
               height={100} />
          </SwiperSlide>
          <SwiperSlide
-            className="swiper-slide-item"
+            className="swiper-slide-item mt-8"
          >
            <Image
               src={require('./../../assets/images/danone.svg')}
-              alt="Features split 01"
+              alt="danone"
               width={100}
               height={100} />
          </SwiperSlide>
@@ -42,7 +42,7 @@ export default function HorizontalScroll() {
          >
            <Image
               src={require('./../../assets/images/poste.svg')}
-              alt="Features split 01"
+              alt="poste"
               width={100}
               height={100} />
          </SwiperSlide>
@@ -51,7 +51,7 @@ export default function HorizontalScroll() {
          >
            <Image
               src={require('./../../assets/images/avis.svg')}
-              alt="Features split 01"
+              alt="avis"
               width={100}
               height={100} />
          </SwiperSlide>
@@ -60,7 +60,7 @@ export default function HorizontalScroll() {
          >
            <Image
               src={require('./../../assets/images/lafayette.svg')}
-              alt="Features split 01"
+              alt="lafayette"
               width={100}
               height={100} />
          </SwiperSlide>
@@ -69,7 +69,7 @@ export default function HorizontalScroll() {
          >
            <Image
               src={require('./../../assets/images/pages-jaunes.svg')}
-              alt="Features split 01"
+              alt="pages-jaunes"
               width={100}
               height={100} />
          </SwiperSlide>
@@ -78,7 +78,16 @@ export default function HorizontalScroll() {
          >
            <Image
               src={require('./../../assets/images/malakoff.svg')}
-              alt="Features split 01"
+              alt="malakoff"
+              width={100}
+              height={100} />
+         </SwiperSlide>
+         <SwiperSlide
+            className="swiper-slide-item"
+         >
+           <Image
+              src={require('./../../assets/images/ratp.svg')}
+              alt="ratp"
               width={100}
               height={100} />
          </SwiperSlide>
