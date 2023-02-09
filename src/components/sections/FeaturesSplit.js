@@ -77,7 +77,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('../../assets/images/paysage.png')}
+                  src={require('../../assets/images/imageR1.svg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -100,8 +100,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('../../assets/images/paysage.png')}
-                  alt="Features split 02"
+                  src={require('../../assets/images/software.svg')}
+                  alt="software"
                   width={528}
                   height={396} />
               </div>
@@ -124,7 +124,7 @@ const FeaturesSplit = ({
                 )}
                    data-reveal-container=".split-item">
                 <Image
-                   src={require('../../assets/images/paysage.png')}
+                   src={require('../../assets/images/data.svg')}
                    alt="Features split 01"
                    width={528}
                    height={396} />
@@ -147,8 +147,8 @@ const FeaturesSplit = ({
                 )}
                    data-reveal-container=".split-item">
                 <Image
-                   src={require('../../assets/images/paysage.png')}
-                   alt="Features split 02"
+                   src={require('../../assets/images/devops.svg')}
+                   alt="devops"
                    width={528}
                    height={396} />
               </div>
@@ -170,8 +170,8 @@ const FeaturesSplit = ({
                 )}
                    data-reveal-container=".split-item">
                 <Image
-                   src={require('../../assets/images/paysage.png')}
-                   alt="Features split 01"
+                   src={require('../../assets/images/cloud.svg')}
+                   alt="cloud"
                    width={528}
                    height={396} />
               </div>
@@ -193,8 +193,8 @@ const FeaturesSplit = ({
                 )}
                    data-reveal-container=".split-item">
                 <Image
-                   src={require('../../assets/images/paysage.png')}
-                   alt="Features split 02"
+                   src={require('../../assets/images/cybersecu.svg')}
+                   alt="cyber-security"
                    width={100}
                    height={100} />
               </div>
