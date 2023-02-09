@@ -3,6 +3,8 @@ import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
@@ -39,6 +41,7 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute path="/recrutement" component={Recrutement}/>
+          <ToastContainer />
         </Switch>
       )} />
   );
