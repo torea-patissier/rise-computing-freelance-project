@@ -14,54 +14,68 @@ export default function HorizontalScroll() {
           keyboard={{
             enabled: true,
           }}
-
+          scrollbar={{ draggable: true }}
           navigation={true}
           modules={[Keyboard, Pagination, Navigation]}
           className="mySwiper"
        >
-         <SwiperSlide >
+         <SwiperSlide
+            className="swiper-slide-item"
+         >
            <Image
               src={require('./../../assets/images/bnp.svg')}
               alt="Features split 01"
               width={100}
               height={100} />
          </SwiperSlide>
-         <SwiperSlide >
+         <SwiperSlide
+            className="swiper-slide-item"
+         >
            <Image
               src={require('./../../assets/images/danone.svg')}
               alt="Features split 01"
               width={100}
               height={100} />
          </SwiperSlide>
-         <SwiperSlide >
+         <SwiperSlide
+            className="swiper-slide-item"
+         >
            <Image
               src={require('./../../assets/images/poste.svg')}
               alt="Features split 01"
               width={100}
               height={100} />
          </SwiperSlide>
-         <SwiperSlide >
+         <SwiperSlide
+            className="swiper-slide-item"
+         >
            <Image
               src={require('./../../assets/images/avis.svg')}
               alt="Features split 01"
               width={100}
               height={100} />
          </SwiperSlide>
-         <SwiperSlide >
+         <SwiperSlide
+            className="swiper-slide-item"
+         >
            <Image
               src={require('./../../assets/images/lafayette.svg')}
               alt="Features split 01"
               width={100}
               height={100} />
          </SwiperSlide>
-         <SwiperSlide >
+         <SwiperSlide
+            className="swiper-slide-item"
+         >
            <Image
               src={require('./../../assets/images/pages-jaunes.svg')}
               alt="Features split 01"
               width={100}
               height={100} />
          </SwiperSlide>
-         <SwiperSlide >
+         <SwiperSlide
+            className="swiper-slide-item"
+         >
            <Image
               src={require('./../../assets/images/malakoff.svg')}
               alt="Features split 01"

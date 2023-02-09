@@ -27,7 +27,7 @@
     &.has-top-divider {
 
         &::before {
-            background: get-color(dark, 3);
+            background: get-color(light, 1);
         }
     }
 }
@@ -52,7 +52,15 @@
   align-items: center;
   justify-content: space-around;
   margin-bottom: 20vh;
+  padding-bottom: 40px;
 }
+
+//.swiper-slide-item{
+//  background-color: #D1200D;
+//  display: flex;
+//  justify-content: center;
+//  align-items: center;
+//}
 
 .swiper {
   width: 100%;
