@@ -41,7 +41,7 @@ export const ContactUsFile = () => {
 
   return (
      <div className="form-child">
-       <h3 className='text-black'>Nous rejoindre</h3>
+       {/*<h3 className='text-black'>Nous rejoindre</h3>*/}
        <form className='form-recruit' ref={form} onSubmit={sendEmail}>
          <input className='input-recruit text-xs' name="user_name" placeholder='Nom' value={formData.user_name} onChange={handleChange}/>
          <input className='input-recruit text-xs' name="user_email" placeholder='Email' value={formData.user_email} onChange={handleChange}/>
@@ -65,7 +65,7 @@ const RecruitSection = () => {
            </h2>
            <div className="recruit-parent-paragraph">
            <div className="recruit-paragraph container-sm">
-             <p className="text-sm mb-32">
+             <p className="text-xs mb-32">
                Au sein de Rise Consulting, nous mettons l’humain au cœur de nos préoccupation.
                Pour nous, chaque projet est avant tout une aventure Humaine. Nous mettons en place un environnement
                professionnel ou il fait bon travailler et où l’on peut s’épanouir.<br/><br/>

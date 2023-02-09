@@ -3,7 +3,8 @@
 	.section-inner {
 		padding-top: $features-tiles--padding-t__mobile;
 		padding-bottom: $features-tiles--padding-b__mobile;
-		background-color: #A7001E;
+		background-color: #A7001E; // texte qui sommes nous / notre recette
+		color: get-color(dark,1);
 	}
 
 	.section-header {

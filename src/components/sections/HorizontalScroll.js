@@ -21,52 +21,52 @@ export default function HorizontalScroll() {
        >
          <SwiperSlide >
            <Image
-              src={require('./../../assets/images/paysage.png')}
+              src={require('./../../assets/images/bnp.svg')}
               alt="Features split 01"
-              width={150}
-              height={150} />
+              width={100}
+              height={100} />
          </SwiperSlide>
          <SwiperSlide >
            <Image
-              src={require('./../../assets/images/paysage.png')}
+              src={require('./../../assets/images/danone.svg')}
               alt="Features split 01"
-              width={150}
-              height={150} />
+              width={100}
+              height={100} />
          </SwiperSlide>
          <SwiperSlide >
            <Image
-              src={require('./../../assets/images/paysage.png')}
+              src={require('./../../assets/images/poste.svg')}
               alt="Features split 01"
-              width={150}
-              height={150} />
+              width={100}
+              height={100} />
          </SwiperSlide>
          <SwiperSlide >
            <Image
-              src={require('./../../assets/images/paysage.png')}
+              src={require('./../../assets/images/avis.svg')}
               alt="Features split 01"
-              width={150}
-              height={150} />
+              width={100}
+              height={100} />
          </SwiperSlide>
          <SwiperSlide >
            <Image
-              src={require('./../../assets/images/paysage.png')}
+              src={require('./../../assets/images/lafayette.svg')}
               alt="Features split 01"
-              width={150}
-              height={150} />
+              width={100}
+              height={100} />
          </SwiperSlide>
          <SwiperSlide >
            <Image
-              src={require('./../../assets/images/paysage.png')}
+              src={require('./../../assets/images/pages-jaunes.svg')}
               alt="Features split 01"
-              width={150}
-              height={150} />
+              width={100}
+              height={100} />
          </SwiperSlide>
          <SwiperSlide >
            <Image
-              src={require('./../../assets/images/paysage.png')}
+              src={require('./../../assets/images/malakoff.svg')}
               alt="Features split 01"
-              width={150}
-              height={150} />
+              width={100}
+              height={100} />
          </SwiperSlide>
        </Swiper>
   );

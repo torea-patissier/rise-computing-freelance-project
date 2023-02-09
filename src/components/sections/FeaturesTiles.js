@@ -63,7 +63,7 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
+                  <h4 className="mt-0 text-color-primary mb-8">
                     Qui Sommes-Nous?
                   </h4>
                   <p className="m-0 text-sm">
@@ -85,7 +85,7 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
+                  <h4 className="mt-0  text-color-primary mb-8">
                     Notre recette?
                   </h4>
                   <p className="m-0 text-sm">

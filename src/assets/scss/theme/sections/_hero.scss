@@ -1,28 +1,28 @@
-.text-color-primaryy{
+.text-color-primaryy {
   color: get-color(primary, 1);
 }
 
-.text-black{
-  color: get-color(dark,2);
+.text-black {
+  color: get-color(light, 1);
 }
 
-.recruit-section{
+.recruit-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 5vh;
   flex-direction: column;
 }
 
-.form-parent{
+.form-parent {
   display: flex;
   width: 100vw;
   padding: 5px;
-  background-color: get-color(primary,1);
+  background-color: get-color(primary, 1);
   justify-content: center;
 }
 
-.form-child{
+.form-child {
   background-color: #f8fafc;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@
   padding-bottom: 3vh;
 }
 
-.form-recruit{
+.form-recruit {
   display: flex;
   flex-direction: column;
   width: 60%;
@@ -42,33 +42,33 @@
   border-radius: 2px;
 }
 
-.recruit-parent-paragraph{
+.recruit-parent-paragraph {
   background-color: get-color(primary, 1);
   display: flex;
   width: 100vw;
 }
 
-.recruit-paragraph{
-  margin-top: 10vh;
-
+.recruit-paragraph {
+  margin-top: 5vh;
+  color: get-color(dark,1);
 }
 
-.button-form-recruit{
+.button-form-recruit {
   display: flex;
   flex-direction: row;
   margin-top: 2vh;
 }
 
-.input-recruit{
+.input-recruit {
   margin-top: 2vh;
 }
 
-.message-recruit{
+.message-recruit {
   margin-top: 2vh;
   height: 25vh;
 }
 
-.button-recruit{
+.button-recruit {
   width: 100vw;
   margin: 5px;
 }
