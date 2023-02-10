@@ -32,6 +32,12 @@
   margin: 2vh;
   border-radius: 5px;
   padding-bottom: 3vh;
+
+  @media (max-width: 767px) {
+    display: flex;
+    width: 90vw;
+    margin: auto;
+  }
 }
 
 .form-recruit {

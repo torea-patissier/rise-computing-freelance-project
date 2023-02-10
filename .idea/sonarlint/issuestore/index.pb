@@ -41,8 +41,6 @@ V
 &src/assets/images/cta-illustration.svg,d/0/d0b59a38241daf36f6c13dd4117a8d8092066585
 V
 &src/components/sections/Recrutement.js,e/5/e57b2de1b91121b292c0cd21ea124ee6a6e62c42
-Z
-*src/components/layout/HeaderRecrutement.js,4/0/4059690a0cb341a545dc9931fe06c7afb72b8be7
 \
 ,src/assets/scss/theme/sections/_section.scss,d/6/d66cbd5d8352ea7856a20c493a858301960a080e
 X
@@ -77,8 +75,6 @@ Y
 )src/assets/scss/core/patterns/_tiles.scss,3/0/304cd74511bccbec78d7bba878ef662a851459ed
 [
 +src/assets/scss/core/elements/_buttons.scss,9/7/97a49e1bb863b2e86593a95caac42f5c612709a2
-Y
-)src/assets/scss/theme/sections/_hero.scss,4/4/441b1ce2e7a96efc3a63b2c34d859ddb59ac3727
 O
 src/assets/images/lafayette.svg,e/6/e612dfa3689402fdf30647bb8ac7a9c8f3187f55
 R
@@ -103,8 +99,6 @@ W
 'src/assets/scss/core/base/_helpers.scss,0/3/03742008633f12221e887f6de81b41e1e970922c
 _
 /src/assets/scss/core/sections/_testimonial.scss,0/6/068249b8e78ab19b30327eb904650654c2471b83
-W
-'src/assets/scss/core/sections/_cta.scss,5/4/54a31953f79cb04f2f77610b5772ff4b0eb27dd3
 E
 src/utils/AppRoute.js,6/4/644b759d34920de52d84ab7f84c8e3818f063263
 :
@@ -118,8 +112,6 @@ Z
 *src/assets/scss/settings/base/_colors.scss,b/a/bad3afe0489fc3b7421a7f2d6be55eb75a1e2ac8
 I
 build/asset-manifest.json,c/1/c1ebef89e8330101684eecc1f866f45ce2df6ef8
-S
-#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 I
 src/assets/images/bnp.svg,3/6/36bfb2e1dd4c2fc61d240b7109cb4d7e4f536b23
 @
