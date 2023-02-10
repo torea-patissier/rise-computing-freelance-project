@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, {useState, useRef, useEffect} from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import {Link, useHistory, Route} from 'react-router-dom';
@@ -21,14 +21,14 @@ const defaultProps = {
 }
 
 const Header = ({
-  className,
-  navPosition,
-  hideNav,
-  hideSignin,
-  bottomOuterDivider,
-  bottomDivider,
-  ...props
-}) => {
+                  className,
+                  navPosition,
+                  hideNav,
+                  hideSignin,
+                  bottomOuterDivider,
+                  bottomDivider,
+                  ...props
+                }) => {
 
   const history = useHistory();
 
@@ -75,92 +75,93 @@ const Header = ({
   }
 
   const classes = classNames(
-    'site-header',
-    bottomOuterDivider && 'has-bottom-divider',
-    className
+     'site-header',
+     bottomOuterDivider && 'has-bottom-divider',
+     className
   );
 
   return (
-    <header
-      {...props}
-      className={classes}
-    >
-      <div className="container">
-        <div className={
-          classNames(
-            'site-header-inner mt-32',
-            bottomDivider && 'has-bottom-divider'
-          )}>
-          {!hideNav &&
-            <>
-              <button
-                ref={hamburger}
-                className="header-nav-toggle"
-                onClick={isActive ? closeMenu : openMenu}
-              >
-                <span className="screen-reader">Menu</span>
-                <span className="hamburger">
+     <header
+        {...props}
+        className={classes}
+     >
+       <div className="container">
+         <div className={
+           classNames(
+              'site-header-inner mt-32',
+              bottomDivider && 'has-bottom-divider'
+           )}>
+           {!hideNav &&
+              <>
+                <button
+                   ref={hamburger}
+                   className="header-nav-toggle"
+                   onClick={isActive ? closeMenu : openMenu}
+                >
+                  <span className="screen-reader">Menu</span>
+                  <span className="hamburger">
                   <span className="hamburger-inner"></span>
                 </span>
-              </button>
-              <nav
-                ref={nav}
-                className={
-                  classNames(
-                    'header-nav',
-                    isActive && 'is-active'
-                  )}>
-                <div className="header-nav-inner">
-                  <ul className={
-                    classNames(
-                      'list-reset text-xs',
-                      navPosition && `header-nav-${navPosition}`
-                    )}>
-                    <li>
-                      <Link to="#nos_domaines_dexpertises" onClick={() => {
-                        const nos_domaines_dexpertises = document.querySelector('#nos_domaines_dexpertises');
-                        nos_domaines_dexpertises.scrollIntoView({behavior: 'smooth'});
-                        closeMenu();
-                      }}>
-                        Nos domaines d'expertises
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link to="#nos_parternaires" onClick={() => {
-                        const nos_parternaires = document.querySelector('#nos_parternaires');
-                        nos_parternaires.scrollIntoView({behavior: 'smooth'});
-                        closeMenu();
-                      }}>
-                        Nos partenaires
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link to="#nous_contacter" onClick={() => {
-                        const nous_contacter = document.querySelector('#nous_contacter');
-                        nous_contacter.scrollIntoView({behavior: 'smooth'});
-                        closeMenu();
-                      }}>
-                        Nous contacter
-                      </Link>
-                    </li>
-                  </ul>
-                  {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
+                </button>
+                <nav
+                   ref={nav}
+                   className={
+                     classNames(
+                        'header-nav',
+                        isActive && 'is-active'
+                     )}>
+                  <div className="header-nav-inner">
+                    <ul className={
+                      classNames(
+                         'list-reset text-xs',
+                         navPosition && `header-nav-${navPosition}`
+                      )}>
                       <li>
-                        <Link to="/recrutement" className="button button-primary button-wide-mobile button-sm"  onClick={handleClick}>Nous rejoindre</Link>
-                        <Route path="/recrutement" component={Recrutement}/>
+                        <Link to="#nos_domaines_dexpertises" onClick={() => {
+                          const nos_domaines_dexpertises = document.querySelector('#nos_domaines_dexpertises');
+                          nos_domaines_dexpertises.scrollIntoView({behavior: 'smooth'});
+                          closeMenu();
+                        }}>
+                          Nos domaines d'expertises
+                        </Link>
                       </li>
-                    </ul>}
-                </div>
-              </nav>
-            </>}
-        </div>
-      </div>
-    </header>
+
+                      <li>
+                        <Link to="#nos_parternaires" onClick={() => {
+                          const nos_parternaires = document.querySelector('#nos_parternaires');
+                          nos_parternaires.scrollIntoView({behavior: 'smooth'});
+                          closeMenu();
+                        }}>
+                          Nos partenaires
+                        </Link>
+                      </li>
+
+                      <li>
+                        <Link to="#nous_contacter" onClick={() => {
+                          const nous_contacter = document.querySelector('#nous_contacter');
+                          nous_contacter.scrollIntoView({behavior: 'smooth'});
+                          closeMenu();
+                        }}>
+                          Nous contacter
+                        </Link>
+                      </li>
+                    </ul>
+                    {!hideSignin &&
+                       <ul
+                          className="list-reset header-nav-right"
+                       >
+                         <li>
+                           <Link to="/recrutement" className="button button-primary button-wide-mobile button-sm"
+                                 onClick={handleClick}>Nous rejoindre</Link>
+                           <Route path="/recrutement" component={Recrutement}/>
+                         </li>
+                       </ul>}
+                  </div>
+                </nav>
+              </>}
+         </div>
+       </div>
+     </header>
   );
 }
 
