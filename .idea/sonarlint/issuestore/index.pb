@@ -107,17 +107,7 @@ b
 Z
 *src/assets/scss/settings/base/_colors.scss,b/a/bad3afe0489fc3b7421a7f2d6be55eb75a1e2ac8
 I
-build/asset-manifest.json,c/1/c1ebef89e8330101684eecc1f866f45ce2df6ef8
-I
 src/assets/images/bnp.svg,3/6/36bfb2e1dd4c2fc61d240b7109cb4d7e4f536b23
-@
-build/index.html,9/9/990a85f5e72fc21bd93d9e8ddb10d110045a91c8
-G
-build/service-worker.js,c/f/cf58a8c79ac7cf6bebf09f249559891a980a44ca
-<
-package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
-V
-&src/components/sections/Testimonial.js,3/d/3d2da55d661d2792bd2c84eeeb6072404937233e
 `
 0src/assets/scss/theme/sections/_testimonial.scss,8/e/8ebab6ca05e121314c0cb33f0d7d53208f8121d8
 ]
@@ -130,8 +120,6 @@ J
 src/assets/images/avis.svg,f/4/f424d8931d738783e42b51cbd444b7e125e592b0
 N
 src/assets/images/malakoff.svg,9/5/95a4653a0236ead1703e300a5b39c14a724b9d82
-[
-+src/components/sections/HorizontalScroll.js,a/a/aafcbed19189830bc9daa3866aeb27582119582e
 J
 src/assets/images/ratp.svg,0/7/07e238dc8b027f23bce0b32b6b14f2f2d3ba4919
 M
