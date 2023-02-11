@@ -7,7 +7,18 @@ import 'swiper/modules/navigation/navigation.min.css';
 import 'swiper/modules/autoplay/autoplay.min.css';
 import Image from "../elements/Image";
 
-export default function HorizontalScroll() {
+const images = [
+  {src: require('./../../assets/images/bnp.svg'), alt: "bnp"},
+  {src: require('./../../assets/images/danone.svg'), alt: "danone"},
+  {src: require('./../../assets/images/poste.svg'), alt: "poste"},
+  {src: require('./../../assets/images/avis.svg'), alt: "avis"},
+  {src: require('./../../assets/images/lafayette.svg'), alt: "lafayette"},
+  {src: require('./../../assets/images/pages-jaunes.svg'), alt: "pages-jaunes"},
+  {src: require('./../../assets/images/malakoff.svg'), alt: "malakoff"},
+  {src: require('./../../assets/images/ratp.svg'), alt: "ratp"},
+];
+
+const HorizontalScroll = () => {
   return (
      <Swiper
         slidesPerView={3}
@@ -20,78 +31,21 @@ export default function HorizontalScroll() {
         autoplay={{delay: 1500, disableOnInteraction: false}}
         className="mySwiper"
      >
-       <SwiperSlide
-          className="swiper-slide-item"
-       >
-         <Image
-            src={require('./../../assets/images/bnp.svg')}
-            alt="bnp"
-            width={100}
-            height={100}/>
-       </SwiperSlide>
-       <SwiperSlide
-          className="swiper-slide-item mt-8"
-       >
-         <Image
-            src={require('./../../assets/images/danone.svg')}
-            alt="danone"
-            width={100}
-            height={100}/>
-       </SwiperSlide>
-       <SwiperSlide
-          className="swiper-slide-item"
-       >
-         <Image
-            src={require('./../../assets/images/poste.svg')}
-            alt="poste"
-            width={100}
-            height={100}/>
-       </SwiperSlide>
-       <SwiperSlide
-          className="swiper-slide-item"
-       >
-         <Image
-            src={require('./../../assets/images/avis.svg')}
-            alt="avis"
-            width={100}
-            height={100}/>
-       </SwiperSlide>
-       <SwiperSlide
-          className="swiper-slide-item"
-       >
-         <Image
-            src={require('./../../assets/images/lafayette.svg')}
-            alt="lafayette"
-            width={100}
-            height={100}/>
-       </SwiperSlide>
-       <SwiperSlide
-          className="swiper-slide-item"
-       >
-         <Image
-            src={require('./../../assets/images/pages-jaunes.svg')}
-            alt="pages-jaunes"
-            width={100}
-            height={100}/>
-       </SwiperSlide>
-       <SwiperSlide
-          className="swiper-slide-item"
-       >
-         <Image
-            src={require('./../../assets/images/malakoff.svg')}
-            alt="malakoff"
-            width={100}
-            height={100}/>
-       </SwiperSlide>
-       <SwiperSlide
-          className="swiper-slide-item"
-       >
-         <Image
-            src={require('./../../assets/images/ratp.svg')}
-            alt="ratp"
-            width={100}
-            height={100}/>
-       </SwiperSlide>
+       {images.map((image, index) => (
+          <SwiperSlide
+             key={index}
+             className="swiper-slide-item"
+          >
+            <Image
+               src={image.src}
+               alt={image.alt}
+               width={100}
+               height={100}
+            />
+          </SwiperSlide>
+       ))}
      </Swiper>
   );
 }
+
+export default HorizontalScroll;
