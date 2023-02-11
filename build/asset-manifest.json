@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.5e33bc85.chunk.css",
-    "main.js": "/static/js/main.ae54d0e0.chunk.js",
-    "main.js.map": "/static/js/main.ae54d0e0.chunk.js.map",
+    "main.js": "/static/js/main.290ca177.chunk.js",
+    "main.js.map": "/static/js/main.290ca177.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ddc2d8d.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ddc2d8d.js.map",
     "static/css/2.9d130520.chunk.css": "/static/css/2.9d130520.chunk.css",
     "static/js/2.e4c185b5.chunk.js": "/static/js/2.e4c185b5.chunk.js",
     "static/js/2.e4c185b5.chunk.js.map": "/static/js/2.e4c185b5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f7b951b30fc3eed89438b2554ab62785.js": "/precache-manifest.f7b951b30fc3eed89438b2554ab62785.js",
+    "precache-manifest.dcb74239fa6744ca0a96cb52d70bffdd.js": "/precache-manifest.dcb74239fa6744ca0a96cb52d70bffdd.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9d130520.chunk.css.map": "/static/css/2.9d130520.chunk.css.map",
     "static/css/main.5e33bc85.chunk.css.map": "/static/css/main.5e33bc85.chunk.css.map",
     "static/js/2.e4c185b5.chunk.js.LICENSE.txt": "/static/js/2.e4c185b5.chunk.js.LICENSE.txt",
     "static/media/avis.svg": "/static/media/avis.57c487a7.svg",
     "static/media/bnp.svg": "/static/media/bnp.1dd75172.svg",
-    "static/media/cloud.svg": "/static/media/cloud.3c45b2ee.svg",
+    "static/media/cloud.svg": "/static/media/cloud.0b355aee.svg",
     "static/media/style.scss": "/static/media/illustration-section-02.63d0555d.svg",
     "static/media/cybersecu.svg": "/static/media/cybersecu.1e198d41.svg",
     "static/media/danone.svg": "/static/media/danone.0eee5d02.svg",
     "static/media/data.svg": "/static/media/data.ad5675cd.svg",
-    "static/media/devops.svg": "/static/media/devops.c151bdef.svg",
+    "static/media/devops.svg": "/static/media/devops.66a04d45.svg",
     "static/media/imageR1.svg": "/static/media/imageR1.063366fb.svg",
     "static/media/lafayette.svg": "/static/media/lafayette.1251246e.svg",
     "static/media/logo.svg": "/static/media/logo.1e89c87a.svg",
@@ -39,6 +39,6 @@
     "static/css/2.9d130520.chunk.css",
     "static/js/2.e4c185b5.chunk.js",
     "static/css/main.5e33bc85.chunk.css",
-    "static/js/main.ae54d0e0.chunk.js"
+    "static/js/main.290ca177.chunk.js"
   ]
 }
