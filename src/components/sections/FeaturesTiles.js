@@ -57,9 +57,9 @@ const FeaturesTiles = ({
                    <div className="features-tiles-item-image mb-16">
                      <Image
                         src={require('./../../assets/images/smile.svg')}
-                        alt="Features tile icon 05"
-                        width={64}
-                        height={64}/>
+                        alt="qsn"
+                        width={70}
+                        height={70}/>
                    </div>
                  </div>
                  <div className="features-tiles-item-content">
