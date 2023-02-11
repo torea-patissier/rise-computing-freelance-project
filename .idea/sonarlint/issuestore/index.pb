@@ -11,10 +11,6 @@ X
 (src/assets/scss/core/layout/_header.scss,f/9/f9b7cd87c3d72328c62c539e573b01955f87116e
 c
 3src/assets/scss/theme/sections/_features-tiles.scss,e/f/ef70b9eb26476d7393378719b888fa1ce4c6cf9f
-a
-1src/assets/scss/settings/base/_scroll-reveal.scss,1/c/1c6a0332ef0cbbec978927771c02c8aae5724e01
-]
--src/assets/scss/core/base/_scroll-reveal.scss,f/e/fe1e58a1c565197c128a2db274d001a1faabfe61
 Y
 )src/assets/scss/core/patterns/_split.scss,8/2/829303909fb81cd6f07cc7253d0900098856cb90
 Q
