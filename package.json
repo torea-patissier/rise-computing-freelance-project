@@ -12,12 +12,16 @@
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
     "react-notifications": "^1.7.4",
+    "react-particles": "^2.9.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",
     "react-toastify": "^8.1.0",
+    "react-tsparticles": "^2.9.0",
     "sass": "^1.49.7",
     "serve": "^14.2.0",
-    "swiper": "^9.0.3"
+    "swiper": "^9.0.3",
+    "tsparticles": "^2.0.6",
+    "tsparticles-slim": "^2.9.0"
   },
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import {SectionProps} from '../../utils/SectionProps';
 import Logo from "../layout/partials/Logo";
-
+import Particule from "../elements/Particule";
 
 const propTypes = {
   ...SectionProps.types
@@ -45,6 +45,9 @@ const Hero = ({
      >
        <div className="">
          <div className={innerClasses}>
+           <div className="tsparticles">
+           <Particule/>
+           </div>
            <div className="hero-full-screen mb-16 reveal-from-bottom">
              <Logo/>
              <div className="hero-title-logo reveal-from-top">

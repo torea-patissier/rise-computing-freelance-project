@@ -79,3 +79,20 @@
   margin: 5px;
 }
 
+  .tsparticles {
+    @media (min-width: 425px) {
+      display: block;
+
+      .particule {
+        display: block;
+      }
+    }
+
+    @media (max-width: 425px) {
+      display: none;
+
+      .particule {
+        display: none;
+      }
+    }
+  }

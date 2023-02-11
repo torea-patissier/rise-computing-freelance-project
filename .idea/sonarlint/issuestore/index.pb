@@ -21,8 +21,6 @@ O
 src/components/layout/Footer.js,e/f/efd33d9a22078b66a8df96196dcf2ff495cf7bc6
 X
 (src/assets/scss/core/sections/_hero.scss,e/a/ea05663407541c4f6ea925070d6e0ad234dc255a
-O
-src/components/sections/Hero.js,f/9/f9d1daab42387a0f0b1f3243fea77bc301b63ad4
 V
 &src/components/layout/partials/Logo.js,0/4/042bd716423a7fd5b19df21616a772f0594b374b
 \
@@ -47,8 +45,6 @@ Z
 *src/assets/scss/theme/patterns/_split.scss,2/f/2f030928e2dc7a3fb990d6a685006be08d0e873c
 W
 'src/assets/scss/theme/layout/_main.scss,e/d/edf9320b4da1c52b5e43f68cf347852d7fd2083d
-g
-7src/assets/scss/theme/illustrations/_illustrations.scss,d/7/d796560c49c38d58d0e980f827a37a7ef5d07299
 [
 +src/assets/scss/theme/base/_typography.scss,5/0/507909e703df85bc00251310072e61e68e3d2f66
 ^
@@ -85,8 +81,6 @@ A
 package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
 o
 ?node_modules/react-toastify/dist/components/ToastContainer.d.ts,e/0/e03ce1990a7448fac962c50d501cdb36bd45eae9
-;
-src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
 <
 src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
 ]
@@ -97,9 +91,6 @@ _
 /src/assets/scss/core/sections/_testimonial.scss,0/6/068249b8e78ab19b30327eb904650654c2471b83
 E
 src/utils/AppRoute.js,6/4/644b759d34920de52d84ab7f84c8e3818f063263
-:
-
-src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
 A
 src/views/Home.js,3/f/3f556fbcd5259132e72ea42f7108a7938c4010a6
 b
@@ -134,3 +125,56 @@ K
 src/assets/images/cloud.svg,d/c/dc6f79d56af3e51b725b16975a1c76bc87ca5a8b
 L
 src/assets/images/devops.svg,3/3/336e3a546494765e6415dd0e05e1538f2af48260
+Y
+)src/components/sections/RecruitSection.js,c/1/c1fd7dc8110619612d6df52778f9c4e4f3ee9c4f
+X
+(src/components/sections/FeaturesTiles.js,1/0/10e12acb9e275be757a95743b26530a3a46e62c6
+c
+3src/assets/scss/theme/sections/_features-split.scss,6/b/6be2622fe10a61a1a3c5c4d9fcb92ea82bbe7ab5
+O
+src/components/layout/Header.js,0/5/0544fa720c16d63262bd906377f2d06a1834c9d0
+Z
+*src/components/layout/HeaderRecrutement.js,4/0/4059690a0cb341a545dc9931fe06c7afb72b8be7
+W
+'src/assets/scss/core/sections/_cta.scss,5/4/54a31953f79cb04f2f77610b5772ff4b0eb27dd3
+Y
+)src/assets/scss/theme/sections/_hero.scss,4/4/441b1ce2e7a96efc3a63b2c34d859ddb59ac3727
+N
+src/components/sections/Cta.js,1/1/116e95a1213519512ef698a6d0fe2f4178f5cfe8
+X
+(src/components/sections/FeaturesSplit.js,b/d/bd2393edcd2006765e6b3ed586832056a71687de
+]
+-src/assets/scss/core/base/_scroll-reveal.scss,f/e/fe1e58a1c565197c128a2db274d001a1faabfe61
+a
+1src/assets/scss/settings/base/_scroll-reveal.scss,1/c/1c6a0332ef0cbbec978927771c02c8aae5724e01
+b
+2node_modules/swiper/modules/autoplay/autoplay.scss,7/b/7b213d90b7ce06c7973376900f283f9b5912f3fd
+O
+node_modules/swiper/swiper.d.ts,c/0/c0ca04cba51f5d10a84d697763dcd0368ec039d7
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+I
+build/asset-manifest.json,c/1/c1ebef89e8330101684eecc1f866f45ce2df6ef8
+@
+build/index.html,9/9/990a85f5e72fc21bd93d9e8ddb10d110045a91c8
+G
+build/service-worker.js,c/f/cf58a8c79ac7cf6bebf09f249559891a980a44ca
+[
++src/components/sections/HorizontalScroll.js,a/a/aafcbed19189830bc9daa3866aeb27582119582e
+;
+src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
+V
+&src/components/sections/Testimonial.js,3/d/3d2da55d661d2792bd2c84eeeb6072404937233e
+g
+7src/assets/scss/theme/illustrations/_illustrations.scss,d/7/d796560c49c38d58d0e980f827a37a7ef5d07299
+T
+$src/components/elements/Particles.js,1/d/1d196fb3fcf25c5e6415d827ba165bfcec776812
+O
+src/components/sections/Hero.js,f/9/f9d1daab42387a0f0b1f3243fea77bc301b63ad4
+K
+src/components/Particles.js,f/e/feefc24d6a8c2cf151cedae9e3d177062d31c7b4
+<
+package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
+:
+
+src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714

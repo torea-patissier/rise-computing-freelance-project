@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/open-react-template.iml" filepath="$PROJECT_DIR$/.idea/open-react-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../particles/react-demo/.idea/react-demo.iml" filepath="$PROJECT_DIR$/../../particles/react-demo/.idea/react-demo.iml" />
     </modules>
   </component>
 </project>

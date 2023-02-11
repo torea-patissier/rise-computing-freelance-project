@@ -5,6 +5,7 @@ const RecruitSection = () => {
   return (
      <>
        <div className="container-sm">
+
          <div className='recruit-section '>
            <h2>
              Nous <span className="text-color-primaryy">rejoindre</span>
