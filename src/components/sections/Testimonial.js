@@ -44,6 +44,7 @@ const Testimonial = ({
           {...props}
           className={outerClasses}
        >
+         <div className="alpha">
          <div className="container">
            <div className={innerClasses}>
              <h2 id="nos_parternaires" className=" mb-16 container-sm reveal-from-bottom center-content"
@@ -52,10 +53,11 @@ const Testimonial = ({
              </h2>
            </div>
          </div>
-       </section>
            <div className="testimonial-scroll">
              <HorizontalScroll/>
            </div>
+         </div>
+       </section>
      </>
   );
 }

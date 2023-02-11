@@ -23,3 +23,7 @@
 .illustration-section-02::after {
 	@include illustration('illustration-section-02.svg', 100%, 253px, null, null, 30px);
 }
+
+.illustration-section-03{
+	background-color: get-color(dark,2);
+}
