@@ -3,12 +3,8 @@ W
 'node_modules/react-router-dom/Router.js,f/e/fef8397be27fe01b30dcaebd2700322f074d3062
 ^
 .node_modules/react-router-dom/BrowserRouter.js,8/7/87443c3fadbc7bd2f70997b97783e4b9515d924d
-L
-src/layouts/LayoutDefault.js,e/5/e55d7c95ca1ced06fa46bd2e0f16fab497bc2fce
 ^
 .src/assets/scss/core/abstracts/_functions.scss,2/2/220478d23b934ec758f1fabb589cab2cb9c75b99
-X
-(src/assets/scss/core/layout/_header.scss,f/9/f9b7cd87c3d72328c62c539e573b01955f87116e
 c
 3src/assets/scss/theme/sections/_features-tiles.scss,e/f/ef70b9eb26476d7393378719b888fa1ce4c6cf9f
 Y
@@ -83,14 +79,10 @@ o
 src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
 ]
 -src/assets/scss/settings/elements/_modal.scss,8/d/8d5e99e2a218a5cc2214a72364c08e01fdfd443e
-W
-'src/assets/scss/core/base/_helpers.scss,0/3/03742008633f12221e887f6de81b41e1e970922c
 _
 /src/assets/scss/core/sections/_testimonial.scss,0/6/068249b8e78ab19b30327eb904650654c2471b83
 E
 src/utils/AppRoute.js,6/4/644b759d34920de52d84ab7f84c8e3818f063263
-A
-src/views/Home.js,3/f/3f556fbcd5259132e72ea42f7108a7938c4010a6
 b
 2src/assets/scss/core/sections/_features-tiles.scss,a/f/afc38396c196b651a280fda9b7cb43b21457826a
 Z
@@ -125,8 +117,6 @@ L
 src/assets/images/devops.svg,3/3/336e3a546494765e6415dd0e05e1538f2af48260
 c
 3src/assets/scss/theme/sections/_features-split.scss,6/b/6be2622fe10a61a1a3c5c4d9fcb92ea82bbe7ab5
-O
-src/components/layout/Header.js,0/5/0544fa720c16d63262bd906377f2d06a1834c9d0
 W
 'src/assets/scss/core/sections/_cta.scss,5/4/54a31953f79cb04f2f77610b5772ff4b0eb27dd3
 Y
@@ -153,6 +143,3 @@ V
 &src/components/sections/Testimonial.js,3/d/3d2da55d661d2792bd2c84eeeb6072404937233e
 g
 7src/assets/scss/theme/illustrations/_illustrations.scss,d/7/d796560c49c38d58d0e980f827a37a7ef5d07299
-:
-
-src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714

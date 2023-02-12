@@ -1,7 +1,7 @@
-import React, {useState, useRef, useEffect} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import {Link, useHistory, Route} from 'react-router-dom';
+import {Link, Route, useHistory} from 'react-router-dom';
 import Recrutement from "../sections/Recrutement";
 
 const propTypes = {
@@ -75,11 +75,11 @@ const Header = ({
   }
 
   const classes = classNames(
-     'site-header',
      bottomOuterDivider && 'has-bottom-divider',
      className
   );
 
+  // 'site-header' à rajouter si jamais bug de la nav
   return (
      <header
         {...props}
