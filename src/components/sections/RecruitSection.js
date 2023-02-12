@@ -22,7 +22,7 @@ const RecruitSection = () => {
                  Nous souhaitons cultiver le FUN, car la vie ce n’est pas que le travail, nous organisons régulièrement
                  des événements qui rassemble les salariés ( afterwork, séminaires, etc), afin de renforcer la cohésion
                  global au sein de notre structure.<br/><br/>
-                 Des projets Challengeant !!!
+                 Des projets Challengeant!
                  Nos consultants souhaitent relever des missions à forte valeurs ajouté, ainsi nous leurs proposons des
                  projets remarquables, motivant et qui les poussent à se surpasser.<br/><br/>
                  Nous rejoindre c’est intégrer une entreprise dont le niveau d’exigence est élevé dans un cadre

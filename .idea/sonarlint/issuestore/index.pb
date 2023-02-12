@@ -15,8 +15,6 @@ Y
 )src/assets/scss/core/patterns/_split.scss,8/2/829303909fb81cd6f07cc7253d0900098856cb90
 Q
 !src/assets/scss/theme/_theme.scss,6/7/67780468a1240750d65591f02e41f7886f15161e
-Y
-)src/components/sections/GenericSection.js,a/8/a8562b3e57555968816c0b13762455a45cedb1c3
 O
 src/components/layout/Footer.js,e/f/efd33d9a22078b66a8df96196dcf2ff495cf7bc6
 X
@@ -125,10 +123,6 @@ K
 src/assets/images/cloud.svg,d/c/dc6f79d56af3e51b725b16975a1c76bc87ca5a8b
 L
 src/assets/images/devops.svg,3/3/336e3a546494765e6415dd0e05e1538f2af48260
-Y
-)src/components/sections/RecruitSection.js,c/1/c1fd7dc8110619612d6df52778f9c4e4f3ee9c4f
-X
-(src/components/sections/FeaturesTiles.js,1/0/10e12acb9e275be757a95743b26530a3a46e62c6
 c
 3src/assets/scss/theme/sections/_features-split.scss,6/b/6be2622fe10a61a1a3c5c4d9fcb92ea82bbe7ab5
 O
@@ -137,10 +131,6 @@ W
 'src/assets/scss/core/sections/_cta.scss,5/4/54a31953f79cb04f2f77610b5772ff4b0eb27dd3
 Y
 )src/assets/scss/theme/sections/_hero.scss,4/4/441b1ce2e7a96efc3a63b2c34d859ddb59ac3727
-N
-src/components/sections/Cta.js,1/1/116e95a1213519512ef698a6d0fe2f4178f5cfe8
-X
-(src/components/sections/FeaturesSplit.js,b/d/bd2393edcd2006765e6b3ed586832056a71687de
 ]
 -src/assets/scss/core/base/_scroll-reveal.scss,f/e/fe1e58a1c565197c128a2db274d001a1faabfe61
 a
@@ -157,16 +147,12 @@ I
 build/index.html,9/9/990a85f5e72fc21bd93d9e8ddb10d110045a91c8
 G
 build/service-worker.js,c/f/cf58a8c79ac7cf6bebf09f249559891a980a44ca
-[
-+src/components/sections/HorizontalScroll.js,a/a/aafcbed19189830bc9daa3866aeb27582119582e
 ;
 src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
 V
 &src/components/sections/Testimonial.js,3/d/3d2da55d661d2792bd2c84eeeb6072404937233e
 g
 7src/assets/scss/theme/illustrations/_illustrations.scss,d/7/d796560c49c38d58d0e980f827a37a7ef5d07299
-O
-src/components/sections/Hero.js,f/9/f9d1daab42387a0f0b1f3243fea77bc301b63ad4
 :
 
 src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
