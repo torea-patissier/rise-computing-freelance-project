@@ -94,7 +94,7 @@ const Header = ({
           {!hideNav &&
             <>
               <button
-                ref={hamburger}.
+                ref={hamburger}
                 className="header-nav-toggle"
                 onClick={isActive ? closeMenu : openMenu}
               >
