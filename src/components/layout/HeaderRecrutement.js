@@ -91,11 +91,10 @@ const Header = ({
             'site-header-inner mt-32',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
           {!hideNav &&
             <>
               <button
-                ref={hamburger}
+                ref={hamburger}.
                 className="header-nav-toggle"
                 onClick={isActive ? closeMenu : openMenu}
               >

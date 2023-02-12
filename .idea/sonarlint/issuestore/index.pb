@@ -133,8 +133,6 @@ c
 3src/assets/scss/theme/sections/_features-split.scss,6/b/6be2622fe10a61a1a3c5c4d9fcb92ea82bbe7ab5
 O
 src/components/layout/Header.js,0/5/0544fa720c16d63262bd906377f2d06a1834c9d0
-Z
-*src/components/layout/HeaderRecrutement.js,4/0/4059690a0cb341a545dc9931fe06c7afb72b8be7
 W
 'src/assets/scss/core/sections/_cta.scss,5/4/54a31953f79cb04f2f77610b5772ff4b0eb27dd3
 Y
@@ -167,14 +165,8 @@ V
 &src/components/sections/Testimonial.js,3/d/3d2da55d661d2792bd2c84eeeb6072404937233e
 g
 7src/assets/scss/theme/illustrations/_illustrations.scss,d/7/d796560c49c38d58d0e980f827a37a7ef5d07299
-T
-$src/components/elements/Particles.js,1/d/1d196fb3fcf25c5e6415d827ba165bfcec776812
 O
 src/components/sections/Hero.js,f/9/f9d1daab42387a0f0b1f3243fea77bc301b63ad4
-K
-src/components/Particles.js,f/e/feefc24d6a8c2cf151cedae9e3d177062d31c7b4
-<
-package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 :
 
 src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
