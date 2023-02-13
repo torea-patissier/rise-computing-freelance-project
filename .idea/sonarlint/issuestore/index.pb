@@ -9,8 +9,6 @@ c
 3src/assets/scss/theme/sections/_features-tiles.scss,e/f/ef70b9eb26476d7393378719b888fa1ce4c6cf9f
 Y
 )src/assets/scss/core/patterns/_split.scss,8/2/829303909fb81cd6f07cc7253d0900098856cb90
-Q
-!src/assets/scss/theme/_theme.scss,6/7/67780468a1240750d65591f02e41f7886f15161e
 O
 src/components/layout/Footer.js,e/f/efd33d9a22078b66a8df96196dcf2ff495cf7bc6
 \
@@ -53,8 +51,6 @@ f
 +src/assets/scss/settings/sections/_cta.scss,d/5/d5c8466fe47499cdcd18434222fde09a883e0bf6
 Y
 )src/assets/scss/core/patterns/_tiles.scss,3/0/304cd74511bccbec78d7bba878ef662a851459ed
-[
-+src/assets/scss/core/elements/_buttons.scss,9/7/97a49e1bb863b2e86593a95caac42f5c612709a2
 O
 src/assets/images/lafayette.svg,e/6/e612dfa3689402fdf30647bb8ac7a9c8f3187f55
 R
@@ -77,12 +73,8 @@ _
 /src/assets/scss/core/sections/_testimonial.scss,0/6/068249b8e78ab19b30327eb904650654c2471b83
 E
 src/utils/AppRoute.js,6/4/644b759d34920de52d84ab7f84c8e3818f063263
-Z
-*src/assets/scss/settings/base/_colors.scss,b/a/bad3afe0489fc3b7421a7f2d6be55eb75a1e2ac8
 I
 src/assets/images/bnp.svg,3/6/36bfb2e1dd4c2fc61d240b7109cb4d7e4f536b23
-]
--src/assets/images/illustration-section-01.svg,d/4/d4926743bb1a6d23a8130624c47f6074ff737be1
 L
 src/assets/images/danone.svg,7/b/7bd471b29d12f256d99786ce7c3dee5135f7e675
 K
@@ -109,8 +101,6 @@ c
 3src/assets/scss/theme/sections/_features-split.scss,6/b/6be2622fe10a61a1a3c5c4d9fcb92ea82bbe7ab5
 W
 'src/assets/scss/core/sections/_cta.scss,5/4/54a31953f79cb04f2f77610b5772ff4b0eb27dd3
-Y
-)src/assets/scss/theme/sections/_hero.scss,4/4/441b1ce2e7a96efc3a63b2c34d859ddb59ac3727
 b
 2node_modules/swiper/modules/autoplay/autoplay.scss,7/b/7b213d90b7ce06c7973376900f283f9b5912f3fd
 O
@@ -137,10 +127,5 @@ Y
 )src/components/sections/RecruitSection.js,c/1/c1fd7dc8110619612d6df52778f9c4e4f3ee9c4f
 Z
 *src/components/layout/HeaderRecrutement.js,4/0/4059690a0cb341a545dc9931fe06c7afb72b8be7
-:
-
-src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
 N
 src/components/sections/Cta.js,1/1/116e95a1213519512ef698a6d0fe2f4178f5cfe8
-W
-'src/assets/scss/core/base/_helpers.scss,0/3/03742008633f12221e887f6de81b41e1e970922c

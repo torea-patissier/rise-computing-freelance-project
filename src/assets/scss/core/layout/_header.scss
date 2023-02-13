@@ -1,19 +1,22 @@
-.site-header {
-	position: absolute !important;
-	top: 0;
-	width: 100%;
-	z-index: 10 !important;
-	background: color-bg(header);
+@media only screen and (max-width: 767px) {
+	.site-header {
+		position: fixed !important;
+		top: 0;
+		width: 100%;
+		margin-top: 2vh;
+		z-index: 10 !important;
+		background: color-bg(header);
 
-	+ .site-content {
+		+ .site-content {
 
-		.section:first-of-type {
-			padding-top: $header-height__mobile;
+			.section:first-of-type {
+				padding-top: $header-height__mobile;
+			}
 		}
-	}
 
-	.brand {
-		margin-right: $header-nav--padding-h;
+		.brand {
+			margin-right: $header-nav--padding-h;
+		}
 	}
 }
 

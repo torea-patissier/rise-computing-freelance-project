@@ -85,7 +85,7 @@ const Header = ({
         {...props}
         className={classes}
      >
-       <div className="container">
+       <div className=" site-header container">
          <div className={
            classNames(
               bottomDivider && 'has-bottom-divider'

@@ -43,14 +43,16 @@ const Hero = ({
         {...props}
         className={outerClasses}
      >
-       <div className="mt-16">
-         <div className={innerClasses}>
-           <div className="tsparticles">
+       <div>
+         <div
+            className={innerClasses}
+         >
+           <div className="tsparticles mt-32">
            <Particule/>
            </div>
            <div className="hero-full-screen is-revealed reveal-from-bottom">
              <Logo/>
-             <div className="hero-title-logo  is-revealed reveal-from-top">
+             <div className="hero-title-logo is-revealed reveal-from-top">
                <h2 className="mt-0 mt-32 is-revealed">
                  Conseil, pilotage et <span className="text-color-primaryy">Développement IT</span>
                </h2>
