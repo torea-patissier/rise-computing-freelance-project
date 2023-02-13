@@ -13,8 +13,6 @@ Q
 !src/assets/scss/theme/_theme.scss,6/7/67780468a1240750d65591f02e41f7886f15161e
 O
 src/components/layout/Footer.js,e/f/efd33d9a22078b66a8df96196dcf2ff495cf7bc6
-V
-&src/components/layout/partials/Logo.js,0/4/042bd716423a7fd5b19df21616a772f0594b374b
 \
 ,build/static/js/runtime-main.1ddc2d8d.js.map,f/9/f983a2de938338feb2583cb6032a9e8fcaad73b5
 ?
@@ -131,8 +129,6 @@ V
 &src/components/sections/Testimonial.js,3/d/3d2da55d661d2792bd2c84eeeb6072404937233e
 V
 &src/components/elements/ButtonGroup.js,b/9/b970c49ec1b9dab46fefbb27238937e58845f0b9
-<
-package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 Y
 )src/components/sections/GenericSection.js,a/8/a8562b3e57555968816c0b13762455a45cedb1c3
 [

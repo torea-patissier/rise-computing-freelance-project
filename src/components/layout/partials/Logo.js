@@ -18,10 +18,10 @@ const Logo = ({
       {...props}
       className={classes}
     >
-      <h1 className="m-0">
+      <h1 className="m-0 is-revealed">
         <Link to="/">
           <Image
-            className='reveal-from-bottom'
+            className=''
             src={require('./../../../assets/images/logo.svg')}
             alt="Open"
             width={300}

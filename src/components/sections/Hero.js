@@ -24,7 +24,7 @@ const Hero = ({
               }) => {
 
   const outerClasses = classNames(
-     'hero section center-content',
+     'hero section is-revealed center-content',
      topOuterDivider && 'has-top-divider',
      bottomOuterDivider && 'has-bottom-divider',
      hasBgColor && 'has-bg-color',
@@ -33,7 +33,7 @@ const Hero = ({
   );
 
   const innerClasses = classNames(
-     'hero-inner section-inner',
+     'hero-inner is-revealed section-inner',
      topDivider && 'has-top-divider',
      bottomDivider && 'has-bottom-divider'
   );
@@ -48,10 +48,10 @@ const Hero = ({
            <div className="tsparticles">
            <Particule/>
            </div>
-           <div className="hero-full-screen reveal-from-bottom">
+           <div className="hero-full-screen is-revealed reveal-from-bottom">
              <Logo/>
-             <div className="hero-title-logo reveal-from-top">
-               <h2 className="mt-0 mt-32">
+             <div className="hero-title-logo  is-revealed reveal-from-top">
+               <h2 className="mt-0 mt-32 is-revealed">
                  Conseil, pilotage et <span className="text-color-primaryy">Développement IT</span>
                </h2>
              </div>
