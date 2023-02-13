@@ -51,7 +51,7 @@ const FeaturesTiles = ({
          <div className={innerClasses}>
            <div className={tilesClasses}>
 
-             <div className="tiles-item reveal-from-bottom" data-reveal-delay="100">
+             <div className="tiles-item reveal-from-bottom" data-reveal-delay="50">
                <div className="tiles-item-inner">
                  <div className="features-tiles-item-header">
                    <div className="features-tiles-item-image mb-16">

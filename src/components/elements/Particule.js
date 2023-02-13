@@ -30,7 +30,7 @@ const Particule = () => {
                 value: "#F4F4F4",
               },
             },
-            fpsLimit: 200,
+            fpsLimit: 150,
             particles: {
               color: {
                 value: "#FFFFFFF",
@@ -53,7 +53,7 @@ const Particule = () => {
                   default: "bounce",
                 },
                 random: false,
-                speed: 2,
+                speed: 1,
                 straight: false,
               },
               number: {

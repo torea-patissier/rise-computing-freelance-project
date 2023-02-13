@@ -43,15 +43,15 @@ const Hero = ({
         {...props}
         className={outerClasses}
      >
-       <div className="">
+       <div className="mt-16">
          <div className={innerClasses}>
            <div className="tsparticles">
            <Particule/>
            </div>
-           <div className="hero-full-screen mb-16 reveal-from-bottom">
+           <div className="hero-full-screen reveal-from-bottom">
              <Logo/>
              <div className="hero-title-logo reveal-from-top">
-               <h2 className="mt-0 mt-32" data-reveal-delay="200">
+               <h2 className="mt-0 mt-32">
                  Conseil, pilotage et <span className="text-color-primaryy">Développement IT</span>
                </h2>
              </div>

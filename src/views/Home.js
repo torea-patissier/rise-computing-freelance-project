@@ -10,8 +10,8 @@ const Home = () => {
 
   return (
      <>
-       <Hero className="illustration-section-01 mt-32"/>
-       <FeaturesTiles/>
+       <Hero className="illustration-section-01"/>
+       <FeaturesTiles className="mt-32" />
        <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02"/>
        <Testimonial topDivider className="illustration-section-03"/>
        <Cta split/>

@@ -88,7 +88,6 @@ const Header = ({
        <div className="container">
          <div className={
            classNames(
-              'site-header-inner mt-32',
               bottomDivider && 'has-bottom-divider'
            )}>
            {!hideNav &&
