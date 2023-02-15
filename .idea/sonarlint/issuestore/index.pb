@@ -156,3 +156,23 @@ X
 (src/assets/scss/core/layout/_footer.scss,3/1/31879965f654e8d9a3381267150bc5ed59817b13
 ]
 -src/assets/scss/core/elements/_hamburger.scss,4/2/4279cbcc68f75d2fdc46566b165bbbb51d6eed89
+O
+src/components/sections/Hero.js,f/9/f9d1daab42387a0f0b1f3243fea77bc301b63ad4
+Z
+*src/assets/scss/settings/base/_colors.scss,b/a/bad3afe0489fc3b7421a7f2d6be55eb75a1e2ac8
+L
+src/layouts/LayoutDefault.js,e/5/e55d7c95ca1ced06fa46bd2e0f16fab497bc2fce
+A
+src/views/Home.js,3/f/3f556fbcd5259132e72ea42f7108a7938c4010a6
+X
+(src/assets/scss/core/layout/_header.scss,f/9/f9b7cd87c3d72328c62c539e573b01955f87116e
+O
+src/components/layout/Header.js,0/5/0544fa720c16d63262bd906377f2d06a1834c9d0
+]
+-src/assets/images/illustration-section-01.svg,d/4/d4926743bb1a6d23a8130624c47f6074ff737be1
+Y
+)src/assets/scss/theme/sections/_hero.scss,4/4/441b1ce2e7a96efc3a63b2c34d859ddb59ac3727
+N
+src/assets/images/bgMobile.svg,d/f/dfd37330b0a02377d4139de1586be8132a78a351
+N
+src/components/sections/Cta.js,1/1/116e95a1213519512ef698a6d0fe2f4178f5cfe8

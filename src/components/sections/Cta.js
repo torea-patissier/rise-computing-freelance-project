@@ -49,6 +49,8 @@ export const ContactUs = () => {
       });
       return;
     }
+
+
     emailjs.sendForm('service_nsnoll6', 'template_bcpnimj', form.current, '3iYRjdFoyO--ogRix')
        .then((result) => {
          console.log(result.text);
