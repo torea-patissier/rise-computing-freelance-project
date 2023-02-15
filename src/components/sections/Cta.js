@@ -49,7 +49,7 @@ export const ContactUs = () => {
       });
       return;
     }
-    emailjs.sendForm('service_inh07sr', 'template_ai3sezr', form.current, 'Ox4sJt0SwMGEV-t2o')
+    emailjs.sendForm('service_e91vb0d', 'template_bcpnimj', form.current, '3iYRjdFoyO--ogRix')
        .then((result) => {
          console.log(result.text);
          toast.success('Votre e-mail à bien été envoyé !', {
