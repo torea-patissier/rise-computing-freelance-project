@@ -1,0 +1,14 @@
+# Ignore les fichiers contenant des informations sensibles
+config.js
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Ignore les fichiers générés par l'IDE ou l'éditeur de texte
+.vscode/
+.idea/
+# Ignore les fichiers de dépendances et de modules tiers
+node_modules/
+package-lock.json
+yarn.lock
