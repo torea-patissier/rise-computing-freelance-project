@@ -39,7 +39,7 @@ const App = () => {
       ref={childRef}
       children={() => (
         <Switch>
-          <AppRoute path="/" component={Home} layout={LayoutDefault} />
+          <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute path="/recrutement" component={Recrutement}/>
           <ToastContainer />
         </Switch>
