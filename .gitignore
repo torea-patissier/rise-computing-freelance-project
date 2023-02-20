@@ -10,5 +10,4 @@ config.js
 .idea/
 # Ignore les fichiers de dépendances et de modules tiers
 node_modules/
-package-lock.json
 yarn.lock
