@@ -35,7 +35,7 @@ const arrOfValues = [
 
 const NosValeurs = () => {
   return (
-     <div className="parentNosValeurs p-16">
+     <div id="nos_valeurs" className="parentNosValeurs p-16">
        <h2 className="mt-0 reveal-from-bottom nosValeurs">
          Nos valeurs
        </h2>

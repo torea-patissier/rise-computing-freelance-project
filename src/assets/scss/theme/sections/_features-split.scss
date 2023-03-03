@@ -3,7 +3,7 @@
 }
 
 // Définition des couleurs et des styles de la card
-$card-bg: #fff;
+$card-bg: get-color("primary",3);
 $card-border: 1px solid #ccc;
 $card-padding: 20px;
 $card-title-size: 24px;

@@ -124,7 +124,15 @@ const Header = ({
                           Nos domaines d'expertises
                         </Link>
                       </li>
-
+                      <li>
+                        <Link to="#nos_valeurs" onClick={() => {
+                          const nos_valeurs = document.querySelector('#nos_valeurs');
+                          nos_valeurs.scrollIntoView({behavior: 'smooth'});
+                          closeMenu();
+                        }}>
+                          Nos valeurs
+                        </Link>
+                      </li>
                       <li>
                         <Link to="#nos_parternaires" onClick={() => {
                           const nos_parternaires = document.querySelector('#nos_parternaires');
