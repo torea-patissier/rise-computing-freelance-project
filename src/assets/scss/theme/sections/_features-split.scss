@@ -1,3 +1,77 @@
 .text-justify{
     text-align: justify;
 }
+
+// Définition des couleurs et des styles de la card
+$card-bg: #fff;
+$card-border: 1px solid #ccc;
+$card-padding: 20px;
+$card-title-size: 24px;
+$card-desc-size: 16px;
+$card-title-color: #333;
+$card-desc-color: #666;
+
+.parentNosValeurs{
+    background-color: get-color("primary",1);
+    z-index: 10;
+}
+
+.nosValeurs{
+    display: flex;
+    justify-content: center;
+    color: get-color('dark',1); ;
+}
+
+// Mise en page des 4 cards sur PC
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media only screen and (max-width: 768px) {
+        // Mise en page des 2 cards sur tablette
+        justify-content: space-around;
+    }
+
+    @media only screen and (max-width: 480px) {
+        // Mise en page d'une seule card sur mobile
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+// Styles pour la card
+.card {
+    background-color: $card-bg;
+    border: $card-border;
+    padding: $card-padding;
+    border-radius: 5px;
+    width: calc(25% - #{$card-padding * 2});
+    margin-bottom: 20px;
+
+    @media only screen and (max-width: 768px) {
+        // Réduire la largeur des cards sur tablette
+        width: calc(50% - #{$card-padding * 2});
+    }
+
+    @media only screen and (max-width: 480px) {
+        // Réduire la largeur de la card sur mobile
+        width: calc(100% - #{$card-padding * 2});
+    }
+
+    // Styles pour le titre de la card
+    .card-title {
+        font-size: $card-title-size;
+        color: $card-title-color;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    // Styles pour la description de la card
+    .card-desc {
+        font-size: $card-desc-size;
+        color: $card-desc-color;
+        text-align: center;
+    }
+}

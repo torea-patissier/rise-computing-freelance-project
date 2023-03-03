@@ -48,7 +48,7 @@ const Hero = ({
             className={innerClasses}
          >
            <div className="tsparticles mt-32">
-           <Particule/>
+             <Particule/>
            </div>
            <div className="hero-full-screen is-revealed reveal-from-bottom">
              <Logo/>
