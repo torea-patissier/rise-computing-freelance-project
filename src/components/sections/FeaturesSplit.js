@@ -28,7 +28,7 @@ const arrOfValues = [
   },
   {
     titre: 'Engagement',
-    description: 'L\'engagement est au cœur de notre activité et prend de multiples formes : auprès de nos clients afin de leur délivrer une réponse adaptée à leur problématique ; auprès de nos partenaires pour garantir une relation pérenne et bénéfique dans les deux sens. Nous nous efforçons également de faire évoluer notre engagement sociétal et environnemental (RSE) au quotidien, tant dans le cœur de notre activité que dans le choix de nos partenaires.',
+    description: 'L\'engagement est au cœur de notre activité : auprès de nos clients afin de leur délivrer une réponse adaptée à leur problématique. Auprès de nos partenaires pour garantir une relation pérenne et bénéfique dans les deux sens. Nous nous efforçons également de faire évoluer notre engagement sociétal et environnemental (RSE) au quotidien, tant dans le cœur de notre activité que dans le choix de nos partenaires.',
   },
 ]
 
@@ -36,8 +36,8 @@ const arrOfValues = [
 const NosValeurs = () => {
   return (
      <div id="nos_valeurs" className="parentNosValeurs p-16">
-       <h2 className="mt-0 reveal-from-bottom nosValeurs">
-         Nos valeurs
+       <h2 className="mt-0 m-32 reveal-from-bottom nosValeurs">
+         <span className="text-black mr-16">Nos</span> valeurs
        </h2>
        <div>
          <div className="cards">

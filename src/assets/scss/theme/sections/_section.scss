@@ -1,0 +1,61 @@
+//P1
+.aProposComponent{
+  display: flex;
+    flex-direction: column;
+}
+
+.aProposParent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: get-color("primary",1);
+  height: 100vh;
+  color: get-color("dark",1);
+}
+
+.aProposTitle{
+  display: flex;
+  justify-content: center;
+}
+
+.textwhite{
+    color: get-color("dark",2);
+}
+
+
+// P2
+.notreVisionParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c0d0e;
+}
+
+.col-md-6 {
+  width: 40%;
+  background-color: #1CB68B;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.titleNotreVision{
+  display: flex;
+  justify-content: center;
+}
+
+.cardNotreVision {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+}
+
