@@ -36,15 +36,11 @@ const NotreVisionDuConseil = () => {
            Notre vision du <span className="text-color-primaryy ml-16">Conseil</span>
          </h2>
        </div>
-       <div className="row">
+       <div className="grille pb-32">
          {cards.map(card => (
-            <div key={card.id} className="col-md-6">
-              <div className={`cardNotreVision m-16 ${card.class}`}>
-                <div className="card-body p-16 ml-4 mr-4">
-                  <h5 className="titleNotreVision">{card.title}</h5>
-                  <p className="card-text text-xs text-justify">{card.content}</p>
-                </div>
-              </div>
+            <div key={card.id} className="grille-item">
+              <h5 className="titleNotreVision">{card.title}</h5>
+              <p className="text-xs text-justify mt-16">{card.content}</p>
             </div>
          ))}
        </div>

@@ -1,26 +1,26 @@
 //P1
-.aProposComponent{
+.aProposComponent {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 
-.aProposParent{
+.aProposParent {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: get-color("primary",1);
+  background-color: get-color("primary", 1);
   height: 100vh;
-  color: get-color("dark",1);
+  color: get-color("dark", 1);
 }
 
-.aProposTitle{
+.aProposTitle {
   display: flex;
   justify-content: center;
 }
 
-.textwhite{
-    color: get-color("dark",2);
+.textwhite {
+  color: get-color("dark", 2);
 }
 
 
@@ -40,7 +40,7 @@
 }
 
 .col-md-6 {
-  width: 40%;
+  width: 50%;
   background-color: #1CB68B;
 
   @media (max-width: 768px) {
@@ -48,7 +48,7 @@
   }
 }
 
-.titleNotreVision{
+.titleNotreVision {
   display: flex;
   justify-content: center;
 }
@@ -59,3 +59,102 @@
   display: flex;
 }
 
+//grid
+.grille {
+  max-width: 1300px;
+  width: 85%;
+  height: auto;
+  margin: 10px auto;
+  //border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 330px);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.grille-item {
+  width: 330px;
+  height: 310px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  //background-color: yellow;
+  background-color: get-color('dark', 2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+//P3
+
+.notreApprocheParent {
+  background-color: get-color("primary", 1);
+}
+
+.notreApproche {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1.4fr 1.6fr;
+    grid-template-rows: 1.5fr 1.5fr 1.5fr;
+    grid-auto-columns: 1fr;
+    gap: 5px 7px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "left hRight"
+    "left cRight"
+    "left bRight";
+  }
+
+  @media (max-width: 767px) {
+    .left {
+      display: none;
+    }
+  }
+}
+
+
+.left {
+  grid-area: left;
+}
+
+.bRight {
+  grid-area: bRight;
+}
+
+.cRight {
+  grid-area: cRight;
+}
+
+.hRight {
+  grid-area: hRight;
+}
+
+.left, .bRight, .cRight, .hRight {
+  border-radius: 10px;
+  background-color: get-color("dark", 2);
+  box-shadow: 0 5px 10px rgba(167, 0, 30, 0.4);
+}
+
+.left {
+  //height: 330px;
+    display: flex;
+}
+
+h5 {
+  font-size: 1rem; // taille de police de base
+  font-weight: bold;
+
+  // styles pour les écrans de taille tablette et supérieure
+  @media screen and (min-width: 768px) {
+    font-size: 1.2rem;
+  }
+
+  // styles pour les écrans de taille bureau
+  @media screen and (min-width: 1024px) {
+    font-size: 1.3rem;
+  }
+}
+
+.oCentre{
+    display: flex;
+    justify-content: center;
+}
