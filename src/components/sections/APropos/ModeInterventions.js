@@ -4,7 +4,7 @@ import Image from '../../elements/Image';
 const ModeInterventions = () => {
 
   return (
-     <div className="modeInterventioParent pb-32">
+     <div id="modes_intervention" className="modeInterventioParent pb-32">
        <div className="container">
          <div className="mt-32">
            <h2 className="h2Title">

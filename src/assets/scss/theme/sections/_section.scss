@@ -26,7 +26,7 @@
 }
 
 
-@media only screen and (min-width: 768px)  { /* Styles pour les écrans de tablette */
+@media only screen and (min-width: 768px) { /* Styles pour les écrans de tablette */
 
   .h2AProposRise {
     width: 21ch;
@@ -321,32 +321,7 @@ h5 {
     justify-content: center;
     flex-wrap: wrap;
   }
-
-  //.circle-row {
-  //  flex-basis: calc(50% - 15px);
-  //}
 }
-//
-//@media (max-width: 767px) {
-//  .circle-row {
-//    flex-direction: column;
-//    text-align: center;
-//    margin-right: 0;
-//    margin-bottom: 20px;
-//  }
-//
-//  .circle {
-//    width: 100px;
-//    height: 100px;
-//    margin-right: 0;
-//    margin-bottom: 10px;
-//  }
-//
-//  [data-title],
-//  [data-description] {
-//    flex: none;
-//  }
-//}
 
 
 .principauxSecteursParent {

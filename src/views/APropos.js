@@ -5,12 +5,14 @@ import NotreApproche from "../components/sections/APropos/NotreApproche";
 import ModeInterventions from "../components/sections/APropos/ModeInterventions";
 import PrincipauxSecteurs from "../components/sections/APropos/PrincipauxSecteurs";
 import Footer from "../components/layout/Footer";
+import HeaderAPropos from "../components/layout/HeaderAPropos";
 
 //Check CSS themes/section.scss
 const APropos = () => {
 
   return (
      <div className="aProposComponent">
+       <HeaderAPropos className="mt-32"/>
        <AProposRise/>
        <NotreVisionDuConseil/>
        <NotreApproche/>

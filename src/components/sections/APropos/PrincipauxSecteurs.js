@@ -12,17 +12,12 @@ const PrincipauxSecteurs = () => {
        <div className="my-component container">
          <div className="circle-row" data-title="Titre 1" data-description="Description 1">
            <div className="contentSecteurs">
-             {/*<div className="circle">*/}
-               <Image
-                  className="circle"
-                  src={require('../../../assets/images/finance.svg')}
-                  alt="ModeInterventions"
-               />
-             {/*</div>*/}
+             <Image
+                className="circle"
+                src={require('../../../assets/images/finance.svg')}
+                alt="ModeInterventions"
+             />
              <h2 className="title">Finance</h2>
-             {/*<p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sagittis quam.*/}
-             {/*  Donec vitae dictum libero. Suspendisse potenti. Proin sed massa magna. In a rhoncus urna, quis aliquam*/}
-             {/*  eros.</p>*/}
            </div>
          </div>
          <div className="circle-row" data-title="Titre 2" data-description="Description 2">
@@ -33,9 +28,6 @@ const PrincipauxSecteurs = () => {
                 alt="ModeInterventions"
              />
              <h2 className="title">Assurance</h2>
-             {/*<p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sagittis quam.*/}
-             {/*  Donec vitae dictum libero. Suspendisse potenti. Proin sed massa magna. In a rhoncus urna, quis aliquam*/}
-             {/*  eros.</p>*/}
            </div>
          </div>
          <div className="circle-row" data-title="Titre 3" data-description="Description 3">
@@ -46,9 +38,6 @@ const PrincipauxSecteurs = () => {
                 alt="ModeInterventions"
              />
              <h2 className="title">Industrie</h2>
-             {/*<p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sagittis quam.*/}
-             {/*  Donec vitae dictum libero. Suspendisse potenti. Proin sed massa magna. In a rhoncus urna, quis aliquam*/}
-             {/*  eros.</p>*/}
            </div>
          </div>
          <div className="circle-row" data-title="Titre 3" data-description="Description 3">
@@ -59,9 +48,6 @@ const PrincipauxSecteurs = () => {
                 alt="ModeInterventions"
              />
              <h2 className="title">Service</h2>
-             {/*<p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at sagittis quam.*/}
-             {/*  Donec vitae dictum libero. Suspendisse potenti. Proin sed massa magna. In a rhoncus urna, quis aliquam*/}
-             {/*  eros.</p>*/}
            </div>
          </div>
        </div>
