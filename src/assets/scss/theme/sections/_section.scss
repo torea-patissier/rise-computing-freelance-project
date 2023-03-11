@@ -142,7 +142,7 @@
 }
 
 //P3
-.notreApprocheParent, modeInterventioParent {
+.notreApprocheParent, {
   background-color: get-color("primary", 1);
 }
 
@@ -283,7 +283,7 @@ h5 {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: gray;
+  background-color: get-color('dark', 2);
   margin-right: 10px;
 }
 
@@ -303,7 +303,7 @@ h5 {
   text-align: justify;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .my-component {
     flex-direction: row;
     justify-content: space-between;
@@ -315,38 +315,38 @@ h5 {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .my-component {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
   }
 
-  .circle-row {
-    flex-basis: calc(50% - 15px);
-  }
+  //.circle-row {
+  //  flex-basis: calc(50% - 15px);
+  //}
 }
-
-@media (max-width: 767px) {
-  .circle-row {
-    flex-direction: column;
-    text-align: center;
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-
-  .circle {
-    width: 100px;
-    height: 100px;
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  [data-title],
-  [data-description] {
-    flex: none;
-  }
-}
+//
+//@media (max-width: 767px) {
+//  .circle-row {
+//    flex-direction: column;
+//    text-align: center;
+//    margin-right: 0;
+//    margin-bottom: 20px;
+//  }
+//
+//  .circle {
+//    width: 100px;
+//    height: 100px;
+//    margin-right: 0;
+//    margin-bottom: 10px;
+//  }
+//
+//  [data-title],
+//  [data-description] {
+//    flex: none;
+//  }
+//}
 
 
 .principauxSecteursParent {
