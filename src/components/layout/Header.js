@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import {Link, Route, useHistory} from 'react-router-dom';
 import Recrutement from "../sections/Recrutement";
+import APropos from "../../views/APropos";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -34,6 +35,10 @@ const Header = ({
 
   const handleClick = () => {
     history.push('/recrutement');
+  };
+
+  const handleClick2 = () => {
+    history.push('/a_propos');
   };
 
   const [isActive, setIsactive] = useState(false);
@@ -133,15 +138,15 @@ const Header = ({
                           Nos valeurs
                         </Link>
                       </li>
-                      <li>
-                        <Link to="#nos_parternaires" onClick={() => {
-                          const nos_parternaires = document.querySelector('#nos_parternaires');
-                          nos_parternaires.scrollIntoView({behavior: 'smooth'});
-                          closeMenu();
-                        }}>
-                          Nos partenaires
-                        </Link>
-                      </li>
+                      {/*<li>*/}
+                      {/*  <Link to="#nos_parternaires" onClick={() => {*/}
+                      {/*    const nos_parternaires = document.querySelector('#nos_parternaires');*/}
+                      {/*    nos_parternaires.scrollIntoView({behavior: 'smooth'});*/}
+                      {/*    closeMenu();*/}
+                      {/*  }}>*/}
+                      {/*    Nos partenaires*/}
+                      {/*  </Link>*/}
+                      {/*</li>*/}
 
                       <li>
                         <Link to="#nous_contacter" onClick={() => {
@@ -161,6 +166,16 @@ const Header = ({
                            <Link to="/recrutement" className="button button-primary button-wide-mobile button-sm"
                                  onClick={handleClick}>Nous rejoindre</Link>
                            <Route path="/recrutement" component={Recrutement}/>
+                         </li>
+                       </ul>}
+                    {!hideSignin &&
+                       <ul
+                          className="list-reset header-nav-right"
+                       >
+                         <li>
+                           <Link to="/a_propos" className="button button-primary button-wide-mobile button-sm"
+                                 onClick={handleClick2}>A propos</Link>
+                           <Route path="/a_propos" component={APropos}/>
                          </li>
                        </ul>}
                   </div>

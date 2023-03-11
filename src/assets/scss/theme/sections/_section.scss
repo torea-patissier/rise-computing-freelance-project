@@ -1,4 +1,63 @@
+//H2
+.h2Title {
+  text-align: center;
+}
+
+.h2Title h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+@media only screen and (max-width: 767px) {
+  .h2Title h2 {
+    font-size: 1.8rem;
+  }
+}
+
+
 //P1
+
+.wrapperAPropos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+
+@media only screen and (min-width: 768px)  { /* Styles pour les écrans de tablette */
+
+  .h2AProposRise {
+    width: 21ch;
+    overflow: hidden;
+    color: white;
+    //font-size: 27px;
+    white-space: nowrap;
+    border-right: 4px solid whitesmoke;
+    animation: printed-text 4s steps(26),
+    flashin-border .75s step-start infinite;
+  }
+
+  @keyframes flashin-border {
+    0% {
+      border-color: whitesmoke;
+    }
+    50% {
+      border-color: transparent;
+    }
+    100% {
+      border-color: whitesmoke;
+    }
+  }
+
+  @keyframes printed-text {
+    from {
+      width: 0%;
+    }
+  }
+}
+
 .aProposComponent {
   display: flex;
   flex-direction: column;
@@ -51,6 +110,7 @@
 .titleNotreVision {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .cardNotreVision {
@@ -59,13 +119,11 @@
   display: flex;
 }
 
-//grid
 .grille {
   max-width: 1300px;
   width: 85%;
   height: auto;
   margin: 10px auto;
-  //border: 1px solid red;
   display: grid;
   grid-template-columns: repeat(auto-fill, 330px);
   grid-gap: 20px;
@@ -79,19 +137,17 @@
   padding: 5px 10px;
   display: flex;
   flex-direction: column;
-  //background-color: yellow;
   background-color: get-color('dark', 2);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 //P3
-
-.notreApprocheParent {
+.notreApprocheParent, modeInterventioParent {
   background-color: get-color("primary", 1);
 }
 
 .notreApproche {
-  @media (min-width: 768px) {
+  @media (min-width: 975px) {
     display: grid;
     grid-template-columns: 1.4fr 1.6fr;
     grid-template-rows: 1.5fr 1.5fr 1.5fr;
@@ -136,7 +192,7 @@
 
 .left {
   //height: 330px;
-    display: flex;
+  display: flex;
 }
 
 h5 {
@@ -154,7 +210,152 @@ h5 {
   }
 }
 
-.oCentre{
-    display: flex;
+
+//P4
+
+.nosModesDinterventions {
+  @media (min-width: 975px) {
+    display: grid;
+    grid-template-columns: 1.4fr 1.6fr;
+    grid-template-rows: 1.5fr 1.5fr 1.5fr;
+    grid-auto-columns: 1fr;
+    gap: 5px 7px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "hLeft right"
+    "cLeft right"
+    "bLeft right";
+  }
+
+  @media (max-width: 426px) {
+    .right {
+      display: none;
+    }
+  }
+}
+
+.right {
+  grid-area: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+}
+
+.bLeft {
+  grid-area: bLeft;
+}
+
+.cLeft {
+  grid-area: cLeft;
+}
+
+.hLeft {
+  grid-area: hLeft;
+}
+
+.right, .bLeft, .cLeft, .hLeft {
+  border-radius: 10px;
+  background-color: get-color("dark", 2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+//P5
+.my-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-right: 10px;
+}
+
+[data-title],
+[data-description] {
+  flex: 1;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: get-color('dark', 2)
+}
+
+.description {
+  font-size: 16px;
+  text-align: justify;
+}
+
+@media (min-width: 1200px) {
+  .my-component {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .circle-row {
+    flex-basis: calc(25% - 15px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .my-component {
+    flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .circle-row {
+    flex-basis: calc(50% - 15px);
+  }
+}
+
+@media (max-width: 767px) {
+  .circle-row {
+    flex-direction: column;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  [data-title],
+  [data-description] {
+    flex: none;
+  }
+}
+
+
+.principauxSecteursParent {
+  background-color: get-color("primary", 1);
+}
+
+.contentSecteurs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
 }

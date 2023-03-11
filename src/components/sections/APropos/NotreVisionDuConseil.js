@@ -32,7 +32,7 @@ const NotreVisionDuConseil = () => {
   return (
      <div className="notreVisionParent container">
        <div className="hero-title-logo is-revealed reveal-from-top">
-         <h2 className="mt-0 mt-32 is-revealed h2APropos">
+         <h2 className="mt-32 h2Title">
            Notre vision du <span className="text-color-primaryy ml-16">Conseil</span>
          </h2>
        </div>

@@ -15,7 +15,7 @@ import Recrutement from "./components/sections/Recrutement";
 import APropos from "./views/APropos";
 
 // Initialize Google Analytics
-ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+// ReactGA.initialize(process.env.REACT_APP_GA_CODE);
 
 const trackPage = page => {
   ReactGA.set({ page });
