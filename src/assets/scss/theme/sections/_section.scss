@@ -334,3 +334,33 @@ h5 {
   align-items: center;
   margin: 20px;
 }
+
+
+// ANIMATION P3 & P4
+.hRight, .cRight, .bRight, .hLeft, .cLeft, .bLeft {
+  opacity: 0;
+}
+
+.hRight.is-revealed, .hLeft.is-revealed {
+  animation: reveal 1s ease-in-out 0s forwards;
+}
+
+.cRight.is-revealed, .cLeft.is-revealed {
+  animation: reveal 1s ease-in-out 0.5s forwards;
+}
+
+.bRight.is-revealed, .bLeft.is-revealed {
+  animation: reveal 1s ease-in-out 1s forwards;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
