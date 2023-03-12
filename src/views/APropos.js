@@ -12,7 +12,7 @@ const APropos = () => {
 
   return (
      <div className="aProposComponent">
-       <HeaderAPropos className="mt-32"/>
+       <HeaderAPropos className="headerApropos"/>
        <AProposRise/>
        <NotreVisionDuConseil/>
        <NotreApproche/>

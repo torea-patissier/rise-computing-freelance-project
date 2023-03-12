@@ -2,10 +2,7 @@ import React, {useEffect, useRef, useState} from 'react';
 // import PropTypes from 'prop-types';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import {Link, Route, useHistory} from 'react-router-dom';
-import Recrutement from "../sections/Recrutement";
-import APropos from "../../views/APropos";
-import Home from "../../views/Home";
+import {Link, useHistory} from 'react-router-dom';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -128,7 +125,7 @@ const HeaderAPropos = ({
                           vision_conseil.scrollIntoView({behavior: 'smooth'});
                           closeMenu();
                         }}>
-                          Notre vision du conseil
+                          Notre vision
                         </Link>
                       </li>
                       <li>
