@@ -161,7 +161,7 @@
   opacity: 100%;
   top: 0;
   width: 100%;
-  z-index: 10 !important;
+  z-index: 100 !important;
   padding-top: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
@@ -176,9 +176,9 @@
     margin-right: $header-nav--padding-h;
   }
 }
-  @media  only screen and (max-width: 641px){
-    .headerApropos{
-      background-color: transparent;
-      box-shadow: none;
-    }
-  }
+  //@media  only screen and (max-width: 641px){
+  //  .headerApropos{
+  //    background-color: transparent;
+  //    box-shadow: none;
+  //  }
+  //}
