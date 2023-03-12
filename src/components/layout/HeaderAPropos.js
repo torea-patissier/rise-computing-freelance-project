@@ -78,6 +78,7 @@ const HeaderAPropos = ({
   }
 
   const classes = classNames(
+     'site-header',
      bottomOuterDivider && 'has-bottom-divider',
      className
   );
@@ -88,9 +89,10 @@ const HeaderAPropos = ({
         {...props}
         className={classes}
      >
-       <div className=" site-header container">
+       <div className="container">
          <div className={
            classNames(
+              'site-header',
               bottomDivider && 'has-bottom-divider'
            )}>
            {!hideNav &&
