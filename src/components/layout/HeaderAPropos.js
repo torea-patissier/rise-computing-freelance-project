@@ -1,9 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import {Link, Route, useHistory} from 'react-router-dom';
-import APropos from "../../views/APropos";
-import Home from "../../views/Home";
+import {Link, useHistory} from 'react-router-dom';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -21,7 +19,7 @@ const defaultProps = {
   bottomDivider: false
 }
 
-const HeaderAPropos = ({
+const Header = ({
                          className,
                          navPosition,
                          hideNav,
@@ -177,7 +175,7 @@ const HeaderAPropos = ({
   );
 }
 
-HeaderAPropos.propTypes = propTypes;
-HeaderAPropos.defaultProps = defaultProps;
+Header.propTypes = propTypes;
+Header.defaultProps = defaultProps;
 
-export default HeaderAPropos;
+export default Header;
