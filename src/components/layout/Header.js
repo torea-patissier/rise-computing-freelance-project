@@ -138,16 +138,6 @@ const Header = ({
                           Nos valeurs
                         </Link>
                       </li>
-                      {/*<li>*/}
-                      {/*  <Link to="#nos_parternaires" onClick={() => {*/}
-                      {/*    const nos_parternaires = document.querySelector('#nos_parternaires');*/}
-                      {/*    nos_parternaires.scrollIntoView({behavior: 'smooth'});*/}
-                      {/*    closeMenu();*/}
-                      {/*  }}>*/}
-                      {/*    Nos partenaires*/}
-                      {/*  </Link>*/}
-                      {/*</li>*/}
-
                       <li>
                         <Link to="#nous_contacter" onClick={() => {
                           const nous_contacter = document.querySelector('#nous_contacter');
