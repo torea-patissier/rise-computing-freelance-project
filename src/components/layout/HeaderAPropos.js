@@ -78,7 +78,6 @@ const Header = ({
   }
 
   const classes = classNames(
-     'site-header',
      bottomOuterDivider && 'has-bottom-divider',
      className
   );
@@ -92,7 +91,6 @@ const Header = ({
        <div className="container">
          <div className={
            classNames(
-              'site-header',
               bottomDivider && 'has-bottom-divider'
            )}>
            {!hideNav &&
