@@ -42,7 +42,7 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute path="/recrutement" component={Recrutement}/>
-          <AppRoute path="/a_propos" component={APropos}/>
+          <AppRoute exact path="/a_propos" component={APropos}/>
           <ToastContainer />
         </Switch>
       )} />

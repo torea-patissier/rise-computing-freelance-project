@@ -1,7 +1,9 @@
 import React, {useEffect, useRef, useState} from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import {Link, useHistory} from 'react-router-dom';
+import {Link, Route, useHistory} from 'react-router-dom';
+import APropos from "../../views/APropos";
+import Home from "../../views/Home";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -20,14 +22,14 @@ const defaultProps = {
 }
 
 const HeaderAPropos = ({
-                  className,
-                  navPosition,
-                  hideNav,
-                  hideSignin,
-                  bottomOuterDivider,
-                  bottomDivider,
-                  ...props
-                }) => {
+                         className,
+                         navPosition,
+                         hideNav,
+                         hideSignin,
+                         bottomOuterDivider,
+                         bottomDivider,
+                         ...props
+                       }) => {
 
   const history = useHistory();
 
