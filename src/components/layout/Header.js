@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import {Link, Route, useHistory} from 'react-router-dom';
 import Recrutement from "../sections/Recrutement";
-import APropos from "../../views/APropos";
+import APropos from "../sections/APropos/APropos";
 
 const propTypes = {
   navPosition: PropTypes.string,

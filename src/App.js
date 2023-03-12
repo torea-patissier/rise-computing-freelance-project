@@ -12,7 +12,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views
 import Home from './views/Home';
 import Recrutement from "./components/sections/Recrutement";
-import APropos from "./views/APropos";
+import APropos from "./components/sections/APropos/APropos";
  import LayoutAPropos from "./layouts/LayoutAPropos";
 
 // Initialize Google Analytics
