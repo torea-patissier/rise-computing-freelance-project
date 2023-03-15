@@ -1,9 +1,9 @@
- import React, { useRef, useEffect } from 'react';
-import { useLocation, Switch } from 'react-router-dom';
+import React, {useRef, useEffect} from 'react';
+import {useLocation, Switch, BrowserRouter} from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
-import { ToastContainer } from 'react-toastify';
+import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
 // Layouts
@@ -13,13 +13,13 @@ import LayoutDefault from './layouts/LayoutDefault';
 import Home from './views/Home';
 import Recrutement from "./components/sections/Recrutement";
 import APropos from "./components/sections/APropos/APropos";
- import LayoutAPropos from "./layouts/LayoutAPropos";
+import LayoutAPropos from "./layouts/LayoutAPropos";
 
 // Initialize Google Analytics
 // ReactGA.initialize(process.env.REACT_APP_GA_CODE);
 
 const trackPage = page => {
-  ReactGA.set({ page });
+  ReactGA.set({page});
   ReactGA.pageview(page);
 };
 
@@ -37,16 +37,18 @@ const App = () => {
   }, [location]);
 
   return (
-    <ScrollReveal
-      ref={childRef}
-      children={() => (
-        <Switch>
-          <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-          <AppRoute path="/recrutement" component={Recrutement}/>
-          <AppRoute path="/a_propos" component={APropos} layout={LayoutAPropos}/>
-          <ToastContainer />
-        </Switch>
-      )} />
+     <ScrollReveal
+        ref={childRef}
+        children={() => (
+           <BrowserRouter>
+             <Switch>
+               <AppRoute exact path="/" component={Home} layout={LayoutDefault}/>
+               <AppRoute path="/recrutement" component={Recrutement}/>
+               <AppRoute path="/a_propos" component={APropos} layout={LayoutAPropos}/>
+               <ToastContainer/>
+             </Switch>
+           </BrowserRouter>
+        )}/>
   );
 }
 
