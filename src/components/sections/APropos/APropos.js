@@ -4,7 +4,6 @@ import NotreVisionDuConseil from "./NotreVisionDuConseil";
 import NotreApproche from "./NotreApproche";
 import ModeInterventions from "./ModeInterventions";
 import PrincipauxSecteurs from "./PrincipauxSecteurs";
-import Footer from "../../layout/Footer";
 
 //Check CSS themes/section.scss
 const APropos = () => {
@@ -16,7 +15,6 @@ const APropos = () => {
        <NotreApproche/>
        <ModeInterventions/>
        <PrincipauxSecteurs/>
-       <Footer/>
      </>
   );
 }
