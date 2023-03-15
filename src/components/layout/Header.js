@@ -139,6 +139,11 @@ const Header = ({
                         </Link>
                       </li>
                       <li>
+                        <Link to="/a_propos"
+                              onClick={handleClick2}>A propos</Link>
+                        <Route path="/a_propos" component={APropos}/>
+                      </li>
+                      <li>
                         <Link to="#nous_contacter" onClick={() => {
                           const nous_contacter = document.querySelector('#nous_contacter');
                           nous_contacter.scrollIntoView({behavior: 'smooth'});
@@ -156,16 +161,6 @@ const Header = ({
                            <Link to="/recrutement" className="button button-primary button-wide-mobile button-sm"
                                  onClick={handleClick}>Nous rejoindre</Link>
                            <Route path="/recrutement" component={Recrutement}/>
-                         </li>
-                       </ul>}
-                    {!hideSignin &&
-                       <ul
-                          className="list-reset header-nav-right"
-                       >
-                         <li>
-                           <Link to="/a_propos" className="button button-primary button-wide-mobile button-sm"
-                                 onClick={handleClick2}>A propos</Link>
-                           <Route path="/a_propos" component={APropos}/>
                          </li>
                        </ul>}
                   </div>
