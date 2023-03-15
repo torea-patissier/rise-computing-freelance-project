@@ -1,5 +1,5 @@
 import React, {useRef, useEffect} from 'react';
-import {useLocation, Switch, BrowserRouter} from 'react-router-dom';
+import {useLocation, Switch, BrowserRouter, Route} from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
@@ -44,7 +44,9 @@ const App = () => {
              <Switch>
                <AppRoute exact path="/" component={Home} layout={LayoutDefault}/>
                <AppRoute path="/recrutement" component={Recrutement}/>
-               <AppRoute path="/a_propos" component={APropos} layout={LayoutAPropos}/>
+               <Route path="/a_propos" >
+                 <APropos/>
+               </Route>
                <ToastContainer/>
              </Switch>
            </BrowserRouter>
