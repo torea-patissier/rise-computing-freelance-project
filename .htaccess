@@ -12,6 +12,8 @@
 
     # stop processing any other rule set if index.html is requested
     RewriteRule ^index\.html$ - [L]
+    RewriteRule ^(.*)$ /index.html [L]
+
 
     # route everything else to /index.html
     RewriteCond %{REQUEST_FILENAME} !-f
