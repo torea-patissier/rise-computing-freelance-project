@@ -12,7 +12,8 @@
 
     # stop processing any other rule set if index.html is requested
     RewriteRule ^index\.html$ - [L]
-    RewriteRule ^(.*)$ /index.html [L]
+    RewriteRule ^a_propos$ / [R=301,L]
+    RewriteRule ^recrutement$ / [R=301,L]
 
 
     # route everything else to /index.html
