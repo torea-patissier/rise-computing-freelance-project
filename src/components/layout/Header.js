@@ -1,9 +1,10 @@
 import React, {useEffect, useRef, useState} from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import {Link, Route, useHistory} from 'react-router-dom';
+import {Link, Route, useHistory, useLocation} from 'react-router-dom';
 import Recrutement from "../sections/Recrutement";
 import APropos from "../sections/APropos/APropos";
+import HeaderAPropos from "./HeaderAPropos";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -84,91 +85,105 @@ const Header = ({
      className
   );
 
+  const location = useLocation();
+
   // 'site-header' à rajouter si jamais bug de la nav
   return (
-     <header
-        {...props}
-        className={classes}
-     >
-       <div className=" site-header container">
-         <div className={
-           classNames(
-              bottomDivider && 'has-bottom-divider'
-           )}>
-           {!hideNav &&
-              <>
-                <button
-                   ref={hamburger}
-                   className="header-nav-toggle"
-                   onClick={isActive ? closeMenu : openMenu}
-                >
-                  <span className="screen-reader">Menu</span>
-                  <span className="hamburger">
+     <>
+       {
+         location.pathname === '/a_propos' ?
+            (
+                 <HeaderAPropos/>
+            )
+            :
+            (
+               <header
+                  {...props}
+                  className={classes}
+               >
+                 <div className=" site-header container">
+                   <div className={
+                     classNames(
+                        bottomDivider && 'has-bottom-divider'
+                     )}>
+                     {!hideNav &&
+                        <>
+                          <button
+                             ref={hamburger}
+                             className="header-nav-toggle"
+                             onClick={isActive ? closeMenu : openMenu}
+                          >
+                            <span className="screen-reader">Menu</span>
+                            <span className="hamburger">
                   <span className="hamburger-inner"></span>
                 </span>
-                </button>
-                <nav
-                   ref={nav}
-                   className={
-                     classNames(
-                        'header-nav',
-                        isActive && 'is-active'
-                     )}>
-                  <div className="header-nav-inner">
-                    <ul className={
-                      classNames(
-                         'list-reset text-xs',
-                         navPosition && `header-nav-${navPosition}`
-                      )}>
-                      <li>
-                        <Link to="#nos_domaines_dexpertises" onClick={() => {
-                          const nos_domaines_dexpertises = document.querySelector('#nos_domaines_dexpertises');
-                          nos_domaines_dexpertises.scrollIntoView({behavior: 'smooth'});
-                          closeMenu();
-                        }}>
-                          Nos domaines d'expertises
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="#nos_valeurs" onClick={() => {
-                          const nos_valeurs = document.querySelector('#nos_valeurs');
-                          nos_valeurs.scrollIntoView({behavior: 'smooth'});
-                          closeMenu();
-                        }}>
-                          Nos valeurs
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/a_propos"
-                              onClick={handleClick2}>A propos</Link>
-                        <Route path="/a_propos" component={APropos}/>
-                      </li>
-                      <li>
-                        <Link to="#nous_contacter" onClick={() => {
-                          const nous_contacter = document.querySelector('#nous_contacter');
-                          nous_contacter.scrollIntoView({behavior: 'smooth'});
-                          closeMenu();
-                        }}>
-                          Nous contacter
-                        </Link>
-                      </li>
-                    </ul>
-                    {!hideSignin &&
-                       <ul
-                          className="list-reset header-nav-right"
-                       >
-                         <li>
-                           <Link to="/recrutement" className="button button-primary button-wide-mobile button-sm"
-                                 onClick={handleClick}>Nous rejoindre</Link>
-                           <Route path="/recrutement" component={Recrutement}/>
-                         </li>
-                       </ul>}
-                  </div>
-                </nav>
-              </>}
-         </div>
-       </div>
-     </header>
+                          </button>
+                          <nav
+                             ref={nav}
+                             className={
+                               classNames(
+                                  'header-nav',
+                                  isActive && 'is-active'
+                               )}>
+                            <div className="header-nav-inner">
+                              <ul className={
+                                classNames(
+                                   'list-reset text-xs',
+                                   navPosition && `header-nav-${navPosition}`
+                                )}>
+                                <li>
+                                  <Link to="#nos_domaines_dexpertises" onClick={() => {
+                                    const nos_domaines_dexpertises = document.querySelector('#nos_domaines_dexpertises');
+                                    nos_domaines_dexpertises.scrollIntoView({behavior: 'smooth'});
+                                    closeMenu();
+                                  }}>
+                                    Nos domaines d'expertises
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="#nos_valeurs" onClick={() => {
+                                    const nos_valeurs = document.querySelector('#nos_valeurs');
+                                    nos_valeurs.scrollIntoView({behavior: 'smooth'});
+                                    closeMenu();
+                                  }}>
+                                    Nos valeurs
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link to="/a_propos"
+                                        onClick={handleClick2}>A propos</Link>
+                                  <Route path="/a_propos" component={APropos}/>
+                                </li>
+                                <li>
+                                  <Link to="#nous_contacter" onClick={() => {
+                                    const nous_contacter = document.querySelector('#nous_contacter');
+                                    nous_contacter.scrollIntoView({behavior: 'smooth'});
+                                    closeMenu();
+                                  }}>
+                                    Nous contacter
+                                  </Link>
+                                </li>
+                              </ul>
+                              {!hideSignin &&
+                                 <ul
+                                    className="list-reset header-nav-right"
+                                 >
+                                   <li>
+                                     <Link to="/recrutement"
+                                           className="button button-primary button-wide-mobile button-sm"
+                                           onClick={handleClick}>Nous rejoindre</Link>
+                                     <Route path="/recrutement" component={Recrutement}/>
+                                   </li>
+                                 </ul>}
+                            </div>
+                          </nav>
+                        </>}
+                   </div>
+                 </div>
+               </header>
+            )
+       }
+     </>
   );
 }
 

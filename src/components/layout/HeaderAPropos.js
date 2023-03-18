@@ -31,9 +31,9 @@ const Header = ({
 
   const history = useHistory();
 
-  const handleClick = () => {
-    history.push('/recrutement');
-  };
+  // const handleClick = () => {
+  //   history.push('/recrutement');
+  // };
 
   const handleClick2 = () => {
     history.push('/');
@@ -88,13 +88,13 @@ const Header = ({
         {...props}
         className={classes}
      >
-       <div className="container">
+       <div className="site-header headerApropos">
          <div className={
            classNames(
               bottomDivider && 'has-bottom-divider'
            )}>
            {!hideNav &&
-              <>
+              <div className="container">
                 <button
                    ref={hamburger}
                    className="header-nav-toggle"
@@ -146,15 +146,15 @@ const Header = ({
                         </Link>
                       </li>
                     </ul>
-                    {!hideSignin &&
-                       <ul
-                          className="list-reset header-nav-right"
-                       >
-                         <li>
-                           <Link to="/recrutement" className="button button-primary button-wide-mobile button-sm"
-                                 onClick={handleClick}>Nous rejoindre</Link>
-                         </li>
-                       </ul>}
+                    {/*{!hideSignin &&*/}
+                    {/*   <ul*/}
+                    {/*      className="list-reset header-nav-right"*/}
+                    {/*   >*/}
+                    {/*     <li>*/}
+                    {/*       <Link to="/recrutement" className="button button-primary button-wide-mobile button-sm"*/}
+                    {/*             onClick={handleClick}>Nous rejoindre</Link>*/}
+                    {/*     </li>*/}
+                    {/*   </ul>}*/}
                     {!hideSignin &&
                        <ul
                           className="list-reset header-nav-right"
@@ -166,7 +166,7 @@ const Header = ({
                        </ul>}
                   </div>
                 </nav>
-              </>}
+              </div>}
          </div>
        </div>
      </header>

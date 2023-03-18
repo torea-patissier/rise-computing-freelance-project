@@ -165,20 +165,22 @@
   padding-top: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
-  + .site-content {
-
-    .section:first-of-type {
-      padding-top: $header-height__mobile;
-    }
-  }
-
-  .brand {
-    margin-right: $header-nav--padding-h;
-  }
-}
-  //@media  only screen and (max-width: 641px){
-  //  .headerApropos{
-  //    background-color: transparent;
-  //    box-shadow: none;
+  //+ .site-content {
+  //
+  //  .section:first-of-type {
+  //    padding-top: $header-height__mobile;
   //  }
   //}
+  //
+  //.brand {
+  //  margin-right: $header-nav--padding-h;
+  //}
+}
+  @media  only screen and (max-width: 641px){
+    .headerApropos{
+      background-color: transparent;
+      box-shadow: none;
+      width: 100%;
+
+    }
+  }
