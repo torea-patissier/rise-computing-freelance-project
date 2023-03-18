@@ -31,9 +31,9 @@ const Header = ({
 
   const history = useHistory();
 
-  // const handleClick = () => {
-  //   history.push('/recrutement');
-  // };
+  const handleClick = () => {
+    history.push('/recrutement');
+  };
 
   const handleClick2 = () => {
     history.push('/');
@@ -146,15 +146,15 @@ const Header = ({
                         </Link>
                       </li>
                     </ul>
-                    {/*{!hideSignin &&*/}
-                    {/*   <ul*/}
-                    {/*      className="list-reset header-nav-right"*/}
-                    {/*   >*/}
-                    {/*     <li>*/}
-                    {/*       <Link to="/recrutement" className="button button-primary button-wide-mobile button-sm"*/}
-                    {/*             onClick={handleClick}>Nous rejoindre</Link>*/}
-                    {/*     </li>*/}
-                    {/*   </ul>}*/}
+                    {!hideSignin &&
+                       <ul
+                          className="list-reset header-nav-right"
+                       >
+                         <li>
+                           <Link to="/recrutement" className="button button-primary button-wide-mobile button-sm"
+                                 onClick={handleClick}>Nous rejoindre</Link>
+                         </li>
+                       </ul>}
                     {!hideSignin &&
                        <ul
                           className="list-reset header-nav-right"
