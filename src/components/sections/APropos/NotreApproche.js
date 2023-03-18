@@ -21,7 +21,7 @@ const NotreApproche = () => {
   }, []);
 
   return (
-     <div id="notre_approche" className="notreApprocheParent pb-32">
+     <div id="notre_approche" className="notreApprocheParent pt-16 pb-32">
        <div className="container">
          <div className="h2Title pb-32 mt-24">
            <h2 className="mt-0 mt-32 is-revealed h2APropos">
