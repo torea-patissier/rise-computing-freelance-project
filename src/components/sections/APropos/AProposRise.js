@@ -5,6 +5,20 @@ const AProposRise = () => {
 
   return (
      <div>
+       <div className="white">
+         <div className="squares">
+           <div className="square"></div>
+           <div className="square"></div>
+           <div className="square"></div>
+           <div className="square"></div>
+           <div className="square"></div>
+           <div className="square"></div>
+           <div className="square"></div>
+           <div className="square"></div>
+           <div className="square"></div>
+           <div className="square"></div>
+         </div>
+       </div>
        <div className="aProposParent">
          <div className="container">
            <div className="h2Title">
