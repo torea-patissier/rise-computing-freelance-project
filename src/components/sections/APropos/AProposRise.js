@@ -20,7 +20,7 @@ const AProposRise = () => {
          </div>
        </div>
        <div className="aProposParent">
-         <div className="container">
+         <div className="container myZIndex">
            <div className="h2Title">
              <div className="wrapperAPropos">
                <h2 className="mt-0 mt-32 is-revealed h2AProposRise textwhite">
