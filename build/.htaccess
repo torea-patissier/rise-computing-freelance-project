@@ -3,6 +3,8 @@
   RewriteEngine On
   RewriteBase /
   RewriteRule ^index\.html$ - [L]
+  RewriteCond %{HTTP_HOST} ^(www\.)?rise-consulting\.fr$ [NC]
+  RewriteRule ^(.*)$ https://home-5012332497.app-ionos.space/$1 [L,P]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-l
