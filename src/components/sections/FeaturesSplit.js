@@ -15,22 +15,22 @@ const defaultProps = {
 
 const arrOfValues = [
   {
-    titre: 'Excellence',
+    // titre: 'Excellence',
     description: 'Nous avons à cœur de promouvoir l\'excellence en mettant notre savoir-faire et notre professionnalisme au service de nos clients, afin de comprendre leurs problématiques, de les résoudre de la manière la plus précise possible et ainsi garantir leur satisfaction.',
     image: require('../../assets/images/excellence.svg')
   },
   {
-    titre: 'Ethique',
+    // titre: 'Ethique',
     description: 'L\'éthique est au cœur de notre activité, des relations avec nos partenaires et nos clients, fondées sur un respect mutuel, une écoute à double sens et des bénéfices réciproques.',
     image: require('../../assets/images/ethique.svg')
   },
   {
-    titre: 'Expertise',
+    // titre: 'Expertise',
     description: 'Notre expertise se manifeste à la fois dans notre expérience du métier de conseil en SI, accumulée au cours de nombreuses années, mais aussi dans notre professionnalisme. Grâce aux retours d\'expérience de nos clients et à nos rapports internes, nous ajustons constamment notre stratégie afin de fournir un résultat de qualité, privilégiant la performance et la précision.',
     image: require('../../assets/images/expertise.svg')
   },
   {
-    titre: 'Engagement',
+    // titre: 'Engagement',
     description: 'L\'engagement est au cœur de notre activité : auprès de nos clients afin de leur délivrer une réponse adaptée à leur problématique. Auprès de nos partenaires pour garantir une relation pérenne et bénéfique dans les deux sens. Nous nous efforçons également de faire évoluer notre engagement sociétal et environnemental (RSE) au quotidien, tant dans le cœur de notre activité que dans le choix de nos partenaires.',
     image: require('../../assets/images/engagement.svg')
   },
@@ -54,8 +54,8 @@ const NosValeurs = () => {
                    src={value.image}
                    alt="ModeInterventions"
                 />
-                <h2 className="card-title reveal-from-bottom">{value.titre}</h2>
-                <p className="m-0  text-sm text-justify reveal-from-bottom">{value.description}</p>
+                {/*<h2 className="card-title reveal-from-bottom">{value.titre}</h2>*/}
+                <p className="m-0 mt-32  text-sm text-justify reveal-from-bottom">{value.description}</p>
               </div>
            ))}
          </div>
