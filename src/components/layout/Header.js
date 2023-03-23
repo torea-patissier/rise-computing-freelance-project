@@ -38,6 +38,14 @@ const Header = ({
     history.push('/recrutement');
   };
 
+  useEffect(() => {
+    const unlisten = history.listen(() => {
+      window.scrollTo(0, 0);
+    });
+    return unlisten;
+  }, [history]);
+
+
   const handleClick2 = () => {
     history.push('/a_propos');
   };
