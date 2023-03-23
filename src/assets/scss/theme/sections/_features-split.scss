@@ -48,7 +48,6 @@ $card-desc-color: #666;
     padding: $card-padding;
     border-radius: 5px;
     width: calc(25% - #{$card-padding * 2});
-    margin-bottom: 20px;
 
     @media only screen and (max-width: 768px) {
         // Réduire la largeur des cards sur tablette
