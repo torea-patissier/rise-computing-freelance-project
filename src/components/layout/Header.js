@@ -159,7 +159,7 @@ const Header = ({
                                 </li>
                                 <li>
                                   <Link to="/a_propos"
-                                        onClick={handleClick2}>A propos</Link>
+                                        onClick={handleClick2}>Notre société</Link>
                                   <Route path="/a_propos" component={APropos}/>
                                 </li>
                                 <li>
